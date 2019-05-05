@@ -22,7 +22,19 @@
 
 ### 技术选型
   - 前端
-    1. zui 前端视觉框架 http://zui.sexy(禅道团除出品)
+    1. Bootstrap
     2. 使用 angularJs 实现数据绑定及业务逻辑
   - 后端
     - 直接使用 TreeQL的restFull Json api,进行数据交互
+
+### 笔记
+1. ng-cloak:加载数据之前隐藏元素
+2. ng-switch,ng-switch-when:实现 switch,case类语句,当a=1时显示x,a=2时显示y
+3. ng-jq,指定jQuery库,默认是jqlite,如果有引入jQuery,就用jq,如果没有引入就用jqlite,指定了就用指定的库
+4. ng-options,给select给设置option,使用时注意:
+  - 必须要给select,给写一个ng-mode
+  - 使用方法: ng-option = "i.value,i.name for i in options"
+  - ng-option 还可以给option设置group i.value,i.name group by i.group for i in options
+5. ng-list:将用户输入的字符串转换为数据，一般用法<input ng-model="item" ng-list></input>
+5. $sce:通过安全类限制
+
