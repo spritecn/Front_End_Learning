@@ -26,8 +26,13 @@
     2. 使用 angularJs 实现数据绑定及业务逻辑
   - 后端
     - 直接使用 TreeQL的restFull Json api,进行数据交互
+### 目录结构
+  - html:员工管理系统
+  - qf_functions:在巧房v10上添加一些函数方便操作
+    1. stopAllRule.js 暂停/启动页面所有的自动转房客规则
+    2. searchDeptInUserlist.js
 
-### 笔记
+### 学习笔记
 1. ng-cloak:加载数据之前隐藏元素
 2. ng-switch,ng-switch-when:实现 switch,case类语句,当a=1时显示x,a=2时显示y
 3. ng-jq,指定jQuery库,默认是jqlite,如果有引入jQuery,就用jq,如果没有引入就用jqlite,指定了就用指定的库
