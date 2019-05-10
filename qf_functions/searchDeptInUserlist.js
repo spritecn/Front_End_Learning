@@ -1,6 +1,6 @@
 const log = console.log
 //插入搜索框
-const searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:22px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btn" >搜索</div>')
+const searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
 jQuery('.leftside_1 .dib').prepend(searchDeptInput)
 
 const deptData = JSON.parse(jQuery("input[name='deptDatas']").attr('value'))
