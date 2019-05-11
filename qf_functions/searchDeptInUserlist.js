@@ -1,4 +1,3 @@
-const log = console.log
 //插入搜索框
 const searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
 jQuery('.leftside_1 .dib').prepend(searchDeptInput)
@@ -16,11 +15,9 @@ searchDeptInput.find('button').click(()=>{
         }
     }
     currSearchIndex += 1
-    log(currSearchIndex,searchDeptResult.length,searchDeptResult)
     if(currSearchIndex>=searchDeptResult.length){
         return (()=>alert('已经是最后一个了'))()
     }
-    log(currSearchIndex,searchDeptResult[currSearchIndex])
     searchDeptResult[currSearchIndex].forEach((curr,index,arr)=>{
         if (arr.length === index+1){
             setTimeout(() => {
@@ -29,7 +26,6 @@ searchDeptInput.find('button').click(()=>{
         }else{
             setTimeout(() => {
                 let currSpanElement = jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' )
-                //log(curr.label,index,currSpanElement.text())
                 currSpanElement.prev().find('.jstree-icon-plus').click()
             }, index*100)
         }
@@ -50,7 +46,6 @@ function searchDept(searchStr,deptData = testData){
             let tempArr = upArr.slice(0)
             tempArr.push(i)
             if (i.label.indexOf(searchStr)>-1){
-                //log('indexof',tempArr)
                 resultList.push(tempArr)
             }
             if (i.children){
