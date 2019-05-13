@@ -1,0 +1,44 @@
+<html>
+    <header>
+        <script src="angular1.6.10.js"></script>
+    </header>
+    <body ng-app="app">
+        <div ng-controller='calu'>
+            <input type="number" ng-keyup="calu()" ng-model = 'num1' />
+            <select ng-model="sign" ng-change="calu()">
+                <option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">&divide</option>
+            </select>
+            <input type="number"  ng-keyup="calu()" ng-model = 'num2' />
+            <span>={{result}}</span>
+        </div>
+    </body>
+    <script>
+    //简单计算器
+    var app = angular.module('app',[])
+    app.controller("calu",function ($scope) {
+        $scope.num1 = 0
+        $scope.num2 = 0
+        $scope.sign ='1'
+        $scope.calu = () =>{
+            switch($scope.sign){
+                case '1':
+                    $scope.result = $scope.num1 + $scope.num2
+                    break
+                case '2':
+                    $scope.result = $scope.num1 - $scope.num2
+                    break
+                case '3':
+                    $scope.result = $scope.num1 * $scope.num2
+                    break
+                case '4':
+                    $scope.result = $scope.num1/$scope.num2
+                    break
+            }
+        }
+      })
+
+    </script>
+</html>

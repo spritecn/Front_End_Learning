@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>登录</title>
+        <!--
+        <script src="//cdn.jsdelivr.net/npm/angular@1.6.10/angular.js" ></script>
+        -->
+        <link rel="stylesheet" href="static/zui.lite.css" />
+        <style>
+            h2{
+                text-align:center;
+            }
+            .content {
+                margin: 10%;
+                border:1px ridge #98bf21;
+                width: 380px;
+                margin-left: auto;
+                margin-right: auto;
+                }
+            form{
+                margin: 10px;
+            }
+            form span{
+                text-align:left;
+                margin-top:1px;
+                padding-left: 2px;
+            }
+            form input{
+                margin-top: 5px;
+            }
+            form button{
+                width: 120px;
+                margin-top: 5px;
+                margin-left: 110px;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="content" ng-app="loginApp">
+            <h2>请登录</h2>
+            <form>
+                <input type="text" class="form-control" placeholder="用户名"/>
+                <span class="with-padding text-warning"></span>
+                <input type="text" class="form-control" placeholder="密码"/>
+                <span class="with-padding text-warning"></span>
+                <input type="text" class="form-control" placeholder="验证码"/>
+                <span class="with-padding text-primary">111</span><br/>
+                <button type="submit" class="btn">提交</button>
+            </form>
+        </div>
+    </body>
+    <script src="static/jquery.js"></script>
+    <script src="static/zui.lite.js"></script>
+    <script src="static/angular1.6.10.js"></script>
+    <script src="js/login.js"></script>
+</html>
