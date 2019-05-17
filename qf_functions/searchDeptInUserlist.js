@@ -1,3 +1,8 @@
+//功能:组织机构页搜索定位部门
+//author:Kross
+//TODO:勾上显示关闭部门也能查询
+
+
 //插入搜索框
 const searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
 jQuery('.leftside_1 .dib').prepend(searchDeptInput)
@@ -19,6 +24,7 @@ searchDeptInput.find('button').click(()=>{
         return (()=>alert('已经是最后一个了'))()
     }
     searchDeptResult[currSearchIndex].forEach((curr,index,arr)=>{
+        //TODO:优化查询子项和延时
         if (arr.length === index+1){
             setTimeout(() => {
                 jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' ).click()
@@ -56,4 +62,3 @@ function searchDept(searchStr,deptData = testData){
     searchStrInData(searchStr,deptData)
     return resultList
 }
-	
