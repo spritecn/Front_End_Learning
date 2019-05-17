@@ -19,7 +19,6 @@ app.controller('loginFormCtrl',($scope)=> {
         }
     }
 
-
 })
 
 const  intGen = () =>{
