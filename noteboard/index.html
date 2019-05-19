@@ -15,12 +15,17 @@
                 margin: 5px auto;
                 width:85%;
                 border:ridge 	CornflowerBlue  1px;
+                overflow: hidden;
                 
             }
             main  article{
                 margin: 15px;
                 border:ridge 	CadetBlue 1px;
                 overflow: auto;
+            }
+            main article em{
+                color: #aaa;
+                margin-left: 20px;
             }
             main aside{
                 float:right;
@@ -40,26 +45,35 @@
                 width: 142px;
                 float: right;
             }
+            /* 遮盖层*/
             .popWindow {
-                    position: fixed; /* 固定定位 */
-                    z-index: 1; /* 设置在顶层 */
+                    position: fixed; 
+                    z-index: 1;
                     left: 0;
                     top: 0;
                     width: 100%; 
                     height: 100%;
                     overflow: auto; 
-                    background-color: rgb(0,0,0); 
-                    background-color: rgba(0,0,0,0.4); 
+                    background-color: rgba(0,0,0,0.1); 
                 }
-
-                /* 弹窗内容 */
+            
+            /*弹窗 */
             .popWindow form {
                     background-color: #fefefe;
-                    margin: 15% auto; 
-                    padding: 20px;
+                    margin: 10% auto; 
+                    padding: 18px;
                     border: 1px solid #888;
-                    width: 80%; 
+                    width: 480px;
+                    overflow: hidden; 
                 }
+            .popWindow button{
+                float:left;
+                margin-left: 50px;
+                width: 50px;
+            }
+            .popWindow input,textarea{
+                margin: 5px;
+            }
                 .close{
                         color: #aaa;
                         float: right;
@@ -81,29 +95,25 @@
             <h2>留言板</h2>
         </header>
         <main ng-controller="main">
-            <button class="btn">写留言</button><br/>
-            <article>
-                <span>赵兴</span>
-                <hr/>
-                <p>随便留点内容</p>
-                <aside>
-                    <a>点赞</a><em>:0</em>  <a>删除</a>
-                </aside>
-            </article>
+            <button class="btn" ng-click="popShow=true">写留言</button><br/>
             <article ng-repeat="(index,note) in notes">
                     <span>{{note.name}}</span>
+                    <em>{{note.createtm}}</em>
                     <hr/>
                     <p>{{note.content}}</p>
                     <aside>
                         <a href="#" ng-click="zan(index,note.id)">点赞</a><em>:{{note.zan}}</em>  <a href="#" ng-click="del(index,note.id)">删除</a>
                     </aside>
             </article>
+            <article ng-show="empty">
+                <p>留言板空空如也,写一条吧</p>
+            </article>
             <div class="popWindow" ng-show="popShow">
-                <form>
-                    <span class="close">&times;</span>
-                    <span>名字:</span><input type="text" ng-model="writeName"/><br/>
-                    <span>内容:</span><textarea   cols="40"   rows="6"  ng-model="noteContent" style="OVERFLOW:hidden"></textarea><br/>
-                    <input type="submit" />
+                <form name='writeForm' ng-submit="submit()">
+                    <span class="close" ng-click="popShow=flase">&times;</span>
+                    <span>名字:</span><input type="text" ng-model="writeName" required/><br/>
+                    <span>内容:</span><textarea   cols="40"   rows="6"  required ng-model="noteContent" style="vertical-align:top;overflow: hidden;"></textarea><br/>
+                    <button type="submit">提交</button>
                 </form>
             </div>
             
@@ -112,18 +122,49 @@
     <script>
         app = angular.module("app",[])
         app.controller("main",function($scope,$http){
-            $scope.popShow = true
-            $scope.notes = [{name:'李四',content:'bbb',id:1,zan:11},
-            {name:'五一',content:'bbb',id:2,zan:11},
-            {name:'六一',content:'bbb',id:3,zan:13}]
+            $scope.popShow = false
+            
+            getNotes = () =>{
+                //获取所有留言
+                $http.get("http://spritecn.gz01.bdysite.com/hw/crud-api.php/records/note?filter=del,eq,0&order=id,desc",{"responseType":"json"})
+                .then((response)=>{
+                    $scope.notes = response.data.records
+                    $scope.empty = $scope.notes.length === 0 ?  true:false
+                },()=>{console.log("查询失败")})
+            }
+            getNotes()
             $scope.del = (index,id) =>{
-                $scope.notes.splice(index,1)
+                url = 'http://spritecn.gz01.bdysite.com/hw/crud-api.php/records/note/' + id
+                $http.put(url,
+                    {"del":1})
+                    .then(()=>$scope.notes.splice(index,1),()=>alert('删除时数据传输有问题,再点试试'))
             }
             $scope.zan = (index,id) =>{
-                console.log(index,id)
-                $scope.notes[index].zan += 1
+                //$scope.notes[index].zan += 1
+                url = 'http://spritecn.gz01.bdysite.com/hw/crud-api.php/records/note/' + id
+                $http.put(url,{"zan":$scope.notes[index].zan+1})
+                .then(()=>$scope.notes[index].zan += 1,()=>{alert("点赞失败了,再点一下吧")})
             }
+            $scope.submit = () =>{
+                $scope.popShow =false
+                console.log($scope.writeName,$scope.noteContent)
+                $http.post("http://spritecn.gz01.bdysite.com/hw/crud-api.php/records/note",
+                    {"name":$scope.writeName,"content":$scope.noteContent})
+                    .then((response)=>{
+                        $scope.notes.unshift(
+                            {
+                                "name":$scope.writeName,
+                                "content":$scope.noteContent,
+                                "zan":0,
+                                "id":response.data
+                            }
+                        )
+                        $scope.writeName = ''
+                        $scope.noteContent =''
 
+                    },()=>alert('提交失败'))
+                
+            }
         })
     </script>
 </html>
