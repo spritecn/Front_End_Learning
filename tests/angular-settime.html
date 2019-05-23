@@ -1,0 +1,23 @@
+<html>
+    <header>
+        <script src="angular1.6.10.js"></script>
+    </header>
+    <body ng-app="app">
+        <div ng-controller='calu'>
+            <span>{{a}}</span>
+        </div>
+    </body>
+    <script>
+    var app = angular.module('app',[])
+    app.controller("calu",function ($scope,$interval,$timeout) {
+        $scope.a = 0,
+        $interval(function (){
+            $scope.a +=1
+            console.log($scope.a)
+            //$scope.$apply()
+        },800)
+      })
+      
+
+    </script>
+</html>

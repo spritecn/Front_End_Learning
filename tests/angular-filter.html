@@ -1,0 +1,27 @@
+<html>
+    <header>
+        <script src="angular1.6.10.js"></script>
+    </header>
+    <body ng-app="app">
+        <div ng-controller='calu'>
+            <input type="text" ng-model="arr"ng-list>
+            <ul>
+                <li ng-repeat='item in arr'>{{item|add:5}}</li>
+            </ul>
+        </div>
+    </body>
+    <script>
+    var app = angular.module('app',[])
+    app.filter('add',function () {
+        return (input,arg)=>{
+            console.log(input,arg)
+            return (+arg)+(+input)
+        }
+        
+    })
+    app.controller('calu',function($scope){
+        //$scpoe.
+    })
+
+    </script>
+</html>

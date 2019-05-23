@@ -27,7 +27,8 @@
   - 后端
     - 直接使用 TreeQL的restFull Json api,进行数据交互
 ### 目录结构
-  - empManager:员工管理系统
+  - empManager:员工管理系
+  - noteboard:留言板<已完成>
   - qf_functions:在巧房v10上添加一些函数方便操作
     1. stopAllRule.js 暂停/启动页面所有的自动转房客规则
     2. searchDeptInUserlist.js
@@ -41,7 +42,8 @@
   4. js的字符串不是数组,数组和字符串都有slice(start,end),indexOf方法,但splice(start,count)方法只有数组有,并且不能 '2' in '234'
   5. {}!={},[3]!=[3],可以考虑使用Lodash的_isEqual判断
   6. js中this和python中self差不多,只是js的this是隐性传的,python的都要写上去
-  7. input的onChanger需要鼠标点击其他控件才能触发,onkeyDown,是按下去就算,一般没有最后输入的那个值,一般用keyUp 慎用 keyDown
+  7. input的onChanger需要鼠标点击其他控件才能触发,onkeyDown,是按下去就算,一般没有最后输入的那个值,一般用keyUp 慎用 keyDown,angularsj可以用 $watch监视
+  8. 字符串转数字的方示 parseInt(str),如果确认是数字,可以直接 (+str)
 
 
 
@@ -52,14 +54,17 @@
     1. angularjs 扩展html的功能
     2. 指令可扩展
     3. 基础:ng-app:指定此部分由angular控制,ng-model:数据模型 ,ng-controller:控制器
-    3. controller,是所有逻辑存储的地方,是和html沟通的桥梁
-    3. augular.module 模块,$scope 模块作用域
-    4. 依赖注入:函数参数由定义方决定 ,也就是说 controller里的函数的参数是指定的,比如$scope,$http
-    5. filter 过滤器,用来过滤数据,用法{{item.data|data:"yy-MM-dd HH:mm:ss"}}
-    6. ng表达式支持三目运算符 (条件?true时执行:假时执行)
-    7. ng-reapet 数组时,如果数组有重复内容,就报错,
+    4. controller,是所有逻辑存储的地方,是和html沟通的桥梁
+    5. augular.module 模块,$scope 模块作用域
+    6. 依赖注入:函数参数由定义方决定 ,也就是说 controller里的函数的参数是指定的,比如$scope,$http
+    7. filter 过滤器,用来过滤数据,用法{{item.data|data:"yy-MM-dd HH:mm:ss"}}
+    8. ng表达式支持三目运算符 (条件?true时执行:假时执行)
+    9. ng-reapet 数组时,如果数组有重复内容,就报错
+    10. $scope.$watch 监视变量,改变后执行 ,用法$scope.$watch('变量名',改变后执行的函数(),是否深度监视),深度监视用于引用类型变量
+    11. $scope.$apply 强制更新$scope;通常用在外部库更改了$scope里的变量后执行.
+    12. 如果Html里有中划线的,angular定义时用驼峰命名,比如drivctive为myClose时,html里可用 my-close标签,反过来也是
 
-  - 指令
+  - 自带指令
     1. ng-init:初始化,一般可以初始化变量
     1. ng-repeat:循环输出 <li ng-repeat="item in arr">{{item}}</li>  "(k,v) in {a:'a',b:1}"
     1. ng-cloak:加载数据之前隐藏元素
@@ -73,4 +78,50 @@
       - ng-option 还可以给option设置group i.value,i.name group by i.group for i in options
     5. ng-list:将用户输入的字符串转换为数据，一般用法<input ng-model="item" ng-list></input>
     5. $sce:通过安全类限制
+    5. $interval,$timeout 用法同原生 setInterval,setTimeout,只是返回的是promise对象,无法用clearTimeout和clearInterval取消它，而是要用 $timeout.cancel(returnedPromise),$interval.cansel(returnedPromise)来取消
+
+  - filter 过滤器
+    1. 在输入数据之前进行处一
+    1. filter后面可以加冒号后面跟filter参数
+    2. 默认filter有:
+      - currency 美元金额
+      - data:时间格式  将timestamp进行格式化
+      - 自定义filter,angular.module.filter("filterName",function(){return function(input,arg){处理input,return结果}}),需要返回一个函数,arg为filter参数,只能有一个参数,字符串要引起来
+  - directive 自定义(一般可以用做自定义标签)
+    1. 写法
+        ''
+        .directive("directiveName',function(){
+          return {
+            restrict: "EA" ,         //指定用途约束,包含E,A,C,M,E自定义标签,A标签属性,C类Class,M注释comment
+            template: '',            //模板
+            replace:true/false,     //是否替换原标签,M模式必须填加,默认为false,不用注释一般不建议使用
+            transclude:true/false,  //指令代码嵌入,默认指令代码是会替换原标签内内容的,默认false,需要在模板里写ng-transclude(代表原始内容)使用
+          }
+
+        })
+    2. directive取名必须为只包含英文和数字,不能和其他字符
+  - 模块化
+    1. 可以通过 angular.module('mod1',[依赖的模块]),来依赖其他模块,这样mod1就可以使用依赖模块内的所有
+    2. 如果依赖的模块里有重名的内容,后面的会覆盖前面的
+  - 自定义依赖注入
+    1. factory, app.factory('factoryName',function(){return somthing}),something,可以是数据,也可以是函数,对象
+    2. provider,app.provider('providerName',function(){this.$get = function(){return somthing}},$get必须定义并且必须是函数,this是指环境上下文
+    3. service, app.service('serviceName',function(){this.xxx}),service中的this是service自己,和构造函数一样的机制
+    4. constant,常量,不可装饰 app.constant('constName',value) ,直接给常量写值
+    5. value,变量,写法和常量一样
+    6. 依赖修饰,decorator,对依赖进行修改,app.decorator('提供者名',function($delegate){return 修改后的依赖}),$delegate为原依赖,修饰只执行一次
+    7. factory,provider,service 每一个module只执行一次,数据和状态是共享的
+    8. 
+  - 多个controller间数据通信共享:
+    1. 父子controller:
+
+
+
+
+
+
+
+
+
+
 

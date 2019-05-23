@@ -1,0 +1,51 @@
+<html>
+    <header>
+        <script src="angular1.6.10.js"></script>
+    </header>
+    <body ng-app="app">
+        <div ng-controller='calu'>
+            <input type="text" ng-model="searchStr">
+            <ul>
+                <li ng-repeat='item in searchResult'>{{item.q}}</li>
+            </ul>
+        </div>
+    </body>
+    <script>
+    var app = angular.module('app',[])
+    app.config(function($sceDelegateProvider) {
+        //angularjs 1.6后,jsonp地址必须是可信域
+        $sceDelegateProvider.resourceUrlWhitelist([
+       // Allow same origin resource loads.
+       'self',
+       // Allow loading from our assets domain.  Notice the difference between * and **.
+       'https://www.baidu.com/**']);
+    });
+    app.controller("calu",function ($scope,$http) {
+        $scope.searchStr = ''
+        $scope.searchResult = []
+        $scope.$watch("searchStr",()=>{
+            if(!$scope.searchStr){return}
+            url = 'https://www.baidu.com/sugrec'
+            $http.jsonp(url,{params:{
+                //必须要传这么多参数才能拿到数据的
+                //默认会传callback:callback: angular.callbacks._X,x为数字
+                //返回的response对象的data,就是返回的json,也就是返回数字函数内的内容
+                wd:$scope.searchStr,
+                pre:1,
+                p:3,
+                ie:"utf-8",
+                json:1,
+                prod:"pc",
+                from:"pc_web"
+                }}).then(
+                (resp)=>{
+                    console.log(resp.data)
+                    $scope.searchResult = resp.data.g
+                }
+            )
+        })
+      })
+      
+
+    </script>
+</html>
