@@ -1,17 +1,20 @@
 //功能:组织机构页搜索定位部门
 //author:Kross
-//TODO:勾上显示关闭部门也能查询
-
 
 //插入搜索框
-const searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
+let searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
 jQuery('.leftside_1 .dib').prepend(searchDeptInput)
-
-const deptData = JSON.parse(jQuery("input[name='deptDatas']").attr('value'))
+let deptData = JSON.parse(jQuery("input[name='deptDatas']").val())
 let searchDeptResult = []
 let currSearchIndex = -1
+let showCloseDeptCheck = jQuery('#blackAllDept').is(':checked')
 
 searchDeptInput.find('button').click(()=>{
+    if (showCloseDeptCheck != jQuery('#blackAllDept').is(':checked')){
+        //判断显示关闭部门是否勾上
+        showCloseDeptCheck = jQuery('#blackAllDept').is(':checked')
+        deptData = JSON.parse(jQuery("input[name='deptDatas']").val())
+    }
     if (currSearchIndex<0){
         searchDeptStr = searchDeptInput.find('input').val()
         searchDeptResult = searchDept(searchDeptStr,deptData)
@@ -24,16 +27,25 @@ searchDeptInput.find('button').click(()=>{
         return (()=>alert('已经是最后一个了'))()
     }
     searchDeptResult[currSearchIndex].forEach((curr,index,arr)=>{
-        //TODO:优化查询子项和延时
+        const timeoutArr = []
         if (arr.length === index+1){
-            setTimeout(() => {
-                jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' ).click()
-            }, index*100);
+            timeoutArr[index] = setInterval(() => {
+                console.log(curr.label,index)
+                let lastElement = jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' )
+                if (!lastElement.is(':hidden')){
+                    jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' ).click()
+                    clearInterval(timeoutArr[index])
+                }
+            }, 30);
         }else{
-            setTimeout(() => {
-                let currSpanElement = jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' )
-                currSpanElement.prev().find('.jstree-icon-plus').click()
-            }, index*100)
+            timeoutArr[index]  = setInterval(() => {
+                    let currSpanElement = jQuery('#dept-tree').find('span:contains("'+ curr.label +'")' )
+                    console.log(curr.label,index)
+                    if (!currSpanElement.is(':hidden')){
+                        currSpanElement.prev().find('.jstree-icon-plus').click()
+                        clearInterval(timeoutArr[index])
+                    }
+                }, 30)
         }
     })
     searchDeptInput.find('button').text('下一个')
