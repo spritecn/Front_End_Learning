@@ -3,6 +3,7 @@
 // @namespace  searchDept
 // @match   http*://*.qiaofangyun.com/user/userlist.do
 // @grant none
+// @run-at  document-ent
 // ==/UserScript==
 //功能:组织机构页搜索定位部门
 //author:Kross
