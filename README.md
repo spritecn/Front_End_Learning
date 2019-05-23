@@ -56,12 +56,15 @@
     3. augular.module 模块,$scope 模块作用域
     4. 依赖注入:函数参数由定义方决定 ,也就是说 controller里的函数的参数是指定的,比如$scope,$http
     5. filter 过滤器,用来过滤数据,用法{{item.data|data:"yy-MM-dd HH:mm:ss"}}
+    6. ng表达式支持三目运算符 (条件?true时执行:假时执行)
+    7. ng-reapet 数组时,如果数组有重复内容,就报错,
 
   - 指令
     1. ng-init:初始化,一般可以初始化变量
     1. ng-repeat:循环输出 <li ng-repeat="item in arr">{{item}}</li>  "(k,v) in {a:'a',b:1}"
     1. ng-cloak:加载数据之前隐藏元素
-    1. ng-src,ng-href,ng-hide,ng-show,ng-if
+    1. ng-src,ng-href,ng-hide,ng-show,ng-if;ng-if是为false是移除这个node,而ng-show为false时只是不显示,display:none;
+    1. ng-class="array" [box,active],ng-style={"color":"red","font-size":12}
     2. ng-switch,ng-switch-when:实现 switch,case类语句,当a=1时显示x,a=2时显示y
     3. ng-jq,指定jQuery库,默认是jqlite,如果有引入jQuery,就用jq,如果没有引入就用jqlite,指定了就用指定的库
     4. ng-options,给select给设置option,使用时注意:
