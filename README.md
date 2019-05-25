@@ -1,7 +1,7 @@
 # Front_End_Learning
 
 ## 时间 
-- 5/1 - 5/22
+- 5/1 - 6/4
 
 ## 学习内容
 - 把之前零碎学习的 html + css + javascript 知识串起来
@@ -113,7 +113,40 @@
     7. factory,provider,service 每一个module只执行一次,数据和状态是共享的
     8. 
   - 多个controller间数据通信共享:
-    1. 父子controller:
+    1. 父子controller:子级controller会复制父级controller的$scope,子级或父级$scope对像修改后,不对上下级影响
+    2. 父子关系,事件消息机制:$scope.$emit('eventName','data')向上发送事件,$scope.$broadcat('eventName',data)向下广播事件,$scope.$on('emitName',function(event,data){})接收事件处理
+    3. 非父子controller:可以通过用同一个factory,provider,service,实现数据共享
+
+  - Router(angular-route需要单独引入,并且需要在angular.module里依赖ngRoute,然后在controller里添加$route依赖)
+    1. 根据URL来切换视图
+    2. ng-view 视图占位符
+    3. route 配置(通常单页herf的url用#)
+        app.config(function($routeProvider){
+           $routeProvider.when('URL',{
+             template:'',  //模板文本
+             templateUrl:'模板view地址',  //可以用ng-template类型来定义模板 <script type='text/ng-template' id='xxx.html'>      模板内容</script> 定义后可以像地址一样引用xxx.html,可以用来减少模板请求
+             controller:'view的控制器',和模板配合使用,
+             resolve:{
+                //延迟器,等dosomthin完成后再加载
+                delay:function($q){
+                    let   delay=$q.defer()
+                    doSomeThing()
+                    return delay.promise
+                  }
+              }
+             })
+           .when('URL',{})
+        })
+      4. $routeParams:可以像get参数一样的给route加参数?id=1&type=2这样,可以直接在controller注入$routeParams引用
+      5. $routeChangeStart,$routeChangeEnd,$routeChangeError,是全局事件,可以直接在controller里通过$scope.on('$routeChangeStart',function(){换页效果})里应用
+      6. 
+
+
+## 视频资料
+  - https://www.bilibili.com/video/av3445520/?p=13
+  - 
+
+
 
 
 
