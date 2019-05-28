@@ -11,16 +11,26 @@
 //插入搜索框
 let searchDeptInput = jQuery('<div><input id="searchDeptInput" style="margin:0;height:24px" placeholder="部门名称" type="text"></input><button id="searchDeptButton" class="btns" >搜索</div>')
 jQuery('.leftside_1 .dib').prepend(searchDeptInput)
-let deptData = JSON.parse(jQuery("input[name='deptDatas']").val())
+let deptDataNoClose = JSON.parse(jQuery("input[name='deptDatas']").val())
 let searchDeptResult = []
 let currSearchIndex = -1
 let showCloseDeptCheck = jQuery('#blackAllDept').is(':checked')
+let deptData = deptDataNoClose
 
+jQuery('#blackAllDept').change(()=>{
+    currSearchIndex = -1
+    searchDeptInput.find('button').text('搜索')
+})
 searchDeptInput.find('button').click(()=>{
     if (showCloseDeptCheck != jQuery('#blackAllDept').is(':checked')){
-        //判断显示关闭部门是否勾上
+        //判断显示关闭部门是否变更
+        if (jQuery('#blackAllDept').is(':checked')){
+                deptData = window.deptUserAllCount1
+                
+            }else{
+                deptData = deptDataNoClose
+            }
         showCloseDeptCheck = jQuery('#blackAllDept').is(':checked')
-        deptData = JSON.parse(jQuery("input[name='deptDatas']").val())
     }
     if (currSearchIndex<0){
         searchDeptStr = searchDeptInput.find('input').val()
@@ -64,7 +74,7 @@ searchDeptInput.find('input').keydown(()=>{
 })
 
 //从部门数据里搜索,返回数组
-function searchDept(searchStr,deptData = testData){
+function searchDept(searchStr,deptData){
     let resultList = []
     let searchStrInData = (searchStr,data,upArr=[]) =>{
         for (let i of data){
