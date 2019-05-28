@@ -22,6 +22,9 @@ jQuery('#blackAllDept').change(()=>{
     searchDeptInput.find('button').text('搜索')
 })
 searchDeptInput.find('button').click(()=>{
+    if (!searchDeptInput.find('input').val().trim()){
+        return
+    }
     if (showCloseDeptCheck != jQuery('#blackAllDept').is(':checked')){
         //判断显示关闭部门是否变更
         if (jQuery('#blackAllDept').is(':checked')){
@@ -33,7 +36,7 @@ searchDeptInput.find('button').click(()=>{
         showCloseDeptCheck = jQuery('#blackAllDept').is(':checked')
     }
     if (currSearchIndex<0){
-        searchDeptStr = searchDeptInput.find('input').val()
+        let searchDeptStr = searchDeptInput.find('input').val().trim()
         searchDeptResult = searchDept(searchDeptStr,deptData)
         if(searchDeptResult.length===0){
             return (()=>alert('没有找到包含:'+searchDeptStr+' 的部门'))()
@@ -91,3 +94,4 @@ function searchDept(searchStr,deptData){
     searchStrInData(searchStr,deptData)
     return resultList
 }
+
