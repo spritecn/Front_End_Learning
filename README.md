@@ -27,7 +27,7 @@
   - 后端
     - 直接使用 TreeQL的restFull Json api,进行数据交互
 ### 目录结构
-  - empManager:员工管理系
+  - empManager:员工管理系统
   - noteboard:留言板<已完成>
   - qf_functions:在巧房v10上添加一些函数方便操作
     1. stopAllRule.js 暂停/启动页面所有的自动转房客规则
@@ -140,6 +140,9 @@
       4. $routeParams:可以像get参数一样的给route加参数?id=1&type=2这样,可以直接在controller注入$routeParams引用
       5. $routeChangeStart,$routeChangeEnd,$routeChangeError,是全局事件,可以直接在controller里通过$scope.on('$routeChangeStart',function(){换页效果})里应用
       6. 
+  - 表单验证
+    1. 需要在<form name="formName" ng-submit="submit()" novalidate>,form,和input等输入标签name属性是必填的,novalidate,用来关闭h5自带的required等验证机制,手动实现
+    2. ng-pattern 里的正则表达式头尾必须是 /,不能直接写在html模板里动态生成,"/{{aa}}/" 这样是不行的,但是可以在controller里动态生成
 
 
 ## 视频资料
