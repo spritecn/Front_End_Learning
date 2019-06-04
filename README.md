@@ -33,6 +33,7 @@
     1. stopAllRule.js 暂停/启动页面所有的自动转房客规则
     2. searchDeptInUserlist.js
   - tests:作的一些小练习
+  - gulp-angularjs:搭建自己的angularjs脚手架
 
 ### 学习笔记
 - javascript(相对于python的坑)
@@ -45,8 +46,9 @@
   7. input的onChanger需要鼠标点击其他控件才能触发,onkeyDown,是按下去就算,一般没有最后输入的那个值,一般用keyUp 慎用 keyDown,angularsj可以用 $watch监视
   8. 字符串转数字的方示 parseInt(str),如果确认是数字,可以直接 (+str)
 
-
-
+- gulp:
+  1. 教程:https://segmentfault.com/a/1190000012904063
+  
 
 
 - angularjs
