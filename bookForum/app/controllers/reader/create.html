@@ -1,0 +1,32 @@
+<h2>注册</h2>
+<form  ng-submit="vm.submit(vm.form)" novalidate>
+    <div>
+        <label for="_email" >邮箱:</label>
+        <input id="_email" type="email"  ng-model="vm.form.email">
+    </div>
+    <div>
+        <label for="_name" >昵称:</label>
+        <input id="_name" type="text"  ng-model="vm.form.name">
+    </div>
+    <div>
+        <label for="_passwd">密码:</label>
+        <input id="_passwd" type="password" ng-model="vm.form.passwd">
+    </div>
+    <div>
+        <label for="_rePasswd" >确认密码:</label>
+        <input id="_rePasswd" type="password" ng-model="vm.retryPasswd">
+    </div>
+    <div>
+        <label for="_verify" >验证码:</label>
+        <input id="_verify" type="type" ng-model="vm.verify">
+        <label id="_verifyQuesion"  for="_verify" >1+1=?</label>
+    </div>
+    <div>
+
+        <input id="_accepted" type="checkbox" ng-model="vm.accepted">
+        <label for="_accepted">已同意</label><a href="#">服务协议</a>
+    </div>
+    <div>
+        <button type="submit">提交</button>
+    </div>
+</form>

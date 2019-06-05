@@ -33,7 +33,7 @@
     1. stopAllRule.js 暂停/启动页面所有的自动转房客规则
     2. searchDeptInUserlist.js
   - tests:作的一些小练习
-  - gulp-angularjs:搭建自己的angularjs脚手架
+  - bookForum:书籍 <<angularjs深度剖析与最佳实践>> 项目
 
 ### 学习笔记
 - javascript(相对于python的坑)
