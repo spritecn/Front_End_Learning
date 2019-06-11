@@ -11,7 +11,7 @@ const fecha = require('fecha')
 
 //定义网站地址常量
 const jiraLoginUrl = 'https://jira.qiaofangyun.com/login.jsp'
-const jiraReportXmlUrl = "https://jira.qiaofangyun.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+in+%28MARKETING%2C+SAAS1%2C+BI%2C+KAD%2C+DHPT%29+AND+issuetype+%3D+%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%2C+%E5%B7%B2%E8%A7%A3%E5%86%B3%2C+Closed%29+AND+reporter+in+%28membersOf%28%E5%AE%A2%E6%9C%8D%E7%BB%84%29%29"
+const jiraReportXmlUrl = 'https://jira.qiaofangyun.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+in+%28MARKETING%2C+SAAS1%2C+BI%2C+KAD%2C+DHPT%29+AND+issuetype+%3D+%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%29+AND+reporter+in+%28membersOf%28%E5%AE%A2%E6%9C%8D%E7%BB%84%29%29&tempMax=1000'
 
 //jira用户名及密码及输出文件名
 const jiraUser = 'name'
