@@ -1,0 +1,329 @@
+﻿标题,优先级,项目,状态,负责人,上报人,反馈时间,模块,链接
+苏州众联地产：申请房源委托  新审批流  流程创建点击“详情”报错   反馈人：销售,P3,SaaS 1.0,开放,苗明明,冯佳顺,2019/06/10,,https://jira.qiaofangyun.com/browse/SAAS1-511
+河源满佑：业务分析报表-通话情况，加载不出,P2,SaaS 1.0,开放,张阳02,万晓剑,2019/06/10,,https://jira.qiaofangyun.com/browse/SAAS1-509
+倾城：客源编号XH002835，求租的客户，编辑保存时提示最小售价不能大于最大售价,P3,SaaS 1.0,开放,苗明明,蔡晓铖,2019/06/10,客源,https://jira.qiaofangyun.com/browse/SAAS1-506
+哈尔滨悦居房地产：房源编辑的时候，委托开始时间和结束时间不是必填项，但不填会提示，新增房源不填不会提示,P2,SaaS 1.0,开放,苗明明,蔡晓铖,2019/06/10,房源,https://jira.qiaofangyun.com/browse/SAAS1-504
+"清远置家:实勘选择图处,上传后顺序错乱",P2,SaaS 1.0,开放,张阳02,赵兴,2019/06/08,,https://jira.qiaofangyun.com/browse/SAAS1-502
+"洛阳懿皇:运营分析系统,通话情况 ,数据不对",P1,SaaS 1.0,开放,张阳02,赵兴,2019/06/08,房源,https://jira.qiaofangyun.com/browse/SAAS1-501
+"乐山世佳:员工陈红,刚设置的年假,没有用过,就显示剩余只有0天",P2,SaaS 1.0,开放,苗明明,赵兴,2019/06/07,,https://jira.qiaofangyun.com/browse/SAAS1-500
+"扬州卓杰:审批流程,节点审核员工不对",P2,SaaS 1.0,开放,苗明明,赵兴,2019/06/06,,https://jira.qiaofangyun.com/browse/SAAS1-499
+上海之赟：楼盘字典内设置表格列去勾后，刷新页面还是有显示,P3,SaaS 1.0,开放,苗明明,龚杰,2019/06/06,楼盘字典,https://jira.qiaofangyun.com/browse/SAAS1-498
+"沈阳中联房管家:楼盘字典里的房号设置,数据和旧库数据不对应",P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/06/06,房源,https://jira.qiaofangyun.com/browse/SAAS1-493
+沈阳中联房管家，删除营销号记录。,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/06/06,,https://jira.qiaofangyun.com/browse/SAAS1-492
+上海瑞阳：需要把陈正勇转给姚尧的14928条房源，转到 永泰店2  公共账户,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/06/06,房源,https://jira.qiaofangyun.com/browse/SAAS1-490
+需求处理,P2,SaaS 1.0,已解决,苗明明,蔡晓铖,2019/06/06,,https://jira.qiaofangyun.com/browse/SAAS1-489
+上海瑞阳：客源归属转移有问题,P2,SaaS 1.0,开放,苗明明,龙如春,2019/06/05,客源,https://jira.qiaofangyun.com/browse/SAAS1-487
+重庆仟绘：经纪人罗庆 实勘上传的图片，在系统中颠倒显示,P2,SaaS 1.0,开放,张阳02,龙如春,2019/06/05,,https://jira.qiaofangyun.com/browse/SAAS1-483
+嘉兴美联地产：员工刘艳玲，5月份有没打卡的天数，考勤日历及汇总里不显示旷工,P3,SaaS 1.0,开放,苗明明,蔡晓铖,2019/06/05,,https://jira.qiaofangyun.com/browse/SAAS1-478
+上海瑞阳：房源列表页，楼盘按照面积排序后，房源数量前后不一致，,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/06/04,房源,https://jira.qiaofangyun.com/browse/SAAS1-477
+上海瑞阳：需要恢复转移的房源，,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/06/04,房源,https://jira.qiaofangyun.com/browse/SAAS1-474
+上海瑞阳：执行了员工房源归属转移，房源列表页和详情页面显示的归属人不一致，,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/06/04,房源,https://jira.qiaofangyun.com/browse/SAAS1-471
+无锡盛世家园：意向金定金凭证文件上传之后，再次重新上传文件名不会修改  反馈人：13328156886,P4,SaaS 1.0,开放,张阳02,冯佳顺,2019/06/04,房源,https://jira.qiaofangyun.com/browse/SAAS1-470
+巧房助手APP，带看单附件上传，上传视频、文档，APP直接崩溃,P2,SaaS 1.0,开放,廖中俊,周大洋,2019/06/04,,https://jira.qiaofangyun.com/browse/SAAS1-469
+需求处理,P2,SaaS 1.0,已关闭,苗明明,蔡晓铖,2019/06/04,,https://jira.qiaofangyun.com/browse/SAAS1-468
+房多多地产：所有账号修改个人资料里的app二维码无法显示，且反馈app绑定后会不定期自动解绑,P2,SaaS 1.0,开放,张阳02,蔡晓铖,2019/06/04,,https://jira.qiaofangyun.com/browse/SAAS1-465
+需求问题,P3,SaaS 1.0,已关闭,苗明明,蔡晓铖,2019/06/04,,https://jira.qiaofangyun.com/browse/SAAS1-458
+济南尚轩 自动转房客规则房客源恢复,P2,SaaS 1.0,已关闭,苗明明,周大洋,2019/06/04,,https://jira.qiaofangyun.com/browse/SAAS1-452
+晋城世纪坊：财务部账号首页有2个实收审批任务，点击跳转后，流程信息都是空的。,P2,SaaS 1.0,已关闭,苗明明,周大洋,2019/06/04,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-449
+上海臻艾实业有限公司 房源跟进、实堪，空看，带看记录删除、短信发送记录,P2,SaaS 1.0,已关闭,苗明明,周大洋,2019/06/03,,https://jira.qiaofangyun.com/browse/SAAS1-443
+洛阳懿皇：房源问题 房源编号  FY161205147,P2,SaaS 1.0,开放,苗明明,周大洋,2019/06/03,房源,https://jira.qiaofangyun.com/browse/SAAS1-440
+广州兴业：需要刷一个交易 实收的审核通过时间,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/06/03,,https://jira.qiaofangyun.com/browse/SAAS1-438
+常熟众联: 运营分析 /  业务分析报表 /  考勤 报表数据不对,P3,SaaS 1.0,开放,苗明明,赵兴,2019/06/01,运营分析,https://jira.qiaofangyun.com/browse/SAAS1-437
+乐清福强房产：需要导入学校,P3,SaaS 1.0,已关闭,苗明明,龙如春,2019/06/03,,https://jira.qiaofangyun.com/browse/SAAS1-433
+湖南衡阳市景晖地产：所有人手机端首页的我的今日行程里数据都是0，不统计,P2,SaaS 1.0,处理中,廖中俊,蔡晓铖,2019/06/03,首页,https://jira.qiaofangyun.com/browse/SAAS1-428
+厦门海希： 不能修改本人的工作总结,P2,SaaS 1.0,开放,张阳02,万晓剑,2019/06/03,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-427
+上海臻艾实业有限公司 批量删除全部离职员工。,P2,SaaS 1.0,已关闭,苗明明,周大洋,2019/06/03,,https://jira.qiaofangyun.com/browse/SAAS1-425
+威海安邦瑞德： 提成算法简单分级回溯，佣金已收齐，计算提成时没有补差额。,P1,SaaS 1.0,已解决,周大洋,周大洋,2019/06/03,交易,https://jira.qiaofangyun.com/browse/SAAS1-417
+瑞阳不动产：交易列表打印票据不显示楼盘详细地址,P3,SaaS 1.0,已关闭,苗明明,龚杰,2019/06/03,交易,https://jira.qiaofangyun.com/browse/SAAS1-416
+新都宏盛发：实收业绩拆用表与交易流程--收佣-按比例分  实收数据不一致。,P2,SaaS 1.0,开放,苗明明,周大洋,2019/06/02,运营分析,https://jira.qiaofangyun.com/browse/SAAS1-413
+扬州绘房：安卓app 1.22.2，手机端看不到新房和报备列表内容,P1,SaaS 1.0,已关闭,龙如春,龙如春,2019/06/03,新房,https://jira.qiaofangyun.com/browse/SAAS1-411
+洛阳懿皇：审批流程已经审核通过了。但是对应的流程任务在任务与首页中还显示未完整。,P2,SaaS 1.0,开放,张阳02,周大洋,2019/06/02,房源,https://jira.qiaofangyun.com/browse/SAAS1-410
+洛阳洛通：需要恢复manager权限,P2,SaaS 1.0,已关闭,苗明明,龚杰,2019/06/02,,https://jira.qiaofangyun.com/browse/SAAS1-408
+南京好邻居：APP分享房源，app直接报错，停止运行。,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/06/02,,https://jira.qiaofangyun.com/browse/SAAS1-407
+南阳尚萱：房源采集，付费按钮没有了,P2,SaaS 1.0,开放,苗明明,周大洋,2019/06/02,房源,https://jira.qiaofangyun.com/browse/SAAS1-406
+"懿皇:财务管理,考勤扣款,没有5月份数据",P2,SaaS 1.0,处理中,张阳02,赵兴,2019/06/01,财务,https://jira.qiaofangyun.com/browse/SAAS1-405
+"上海巧房:安卓新版本app,1.22.2, 新房和报备,进去不显示内容",P1,SaaS 1.0,已关闭,赵兴,赵兴,2019/06/01,,https://jira.qiaofangyun.com/browse/SAAS1-404
+安卓APP版本1.22.1， 新增带看单 关联不到房源,P2,SaaS 1.0,开放,苗明明,万晓剑,2019/05/31,,https://jira.qiaofangyun.com/browse/SAAS1-380
+金华房媒：需要批量修改房源的第一归属人,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/31,,https://jira.qiaofangyun.com/browse/SAAS1-375
+"宜春恒通:房源跟进里商务号拨打记录的跟进时间,和拨打时间不一致",P2,SaaS 1.0,开放,苗明明,赵兴,2019/05/31,房源,https://jira.qiaofangyun.com/browse/SAAS1-373
+洛阳懿皇：实堪，照片上传后横图变竖图。,P2,SaaS 1.0,开放,张阳02,周大洋,2019/05/30,,https://jira.qiaofangyun.com/browse/SAAS1-372
+陕西得益：电脑端带看审核，系统会卡住，没有反应,P2,SaaS 1.0,开放,张阳02,龙如春,2019/05/30,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-371
+金华房媒：有个经纪人手机app，闪退，,P2,SaaS 1.0,已关闭,廖中俊,龙如春,2019/05/30,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-370
+犍为县首佳房产信息服务部：管理帐号被修改，需要恢复,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/05/30,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-369
+住商宜居：首页-总览，房源数据，显示有误,P2,SaaS 1.0,开放,张阳02,龙如春,2019/05/30,首页,https://jira.qiaofangyun.com/browse/SAAS1-368
+广州分区客户更新的在线充值：1.只有manager帐号可以看到充值业务   2.客户端点击充值之后没有反应,P1,SaaS 1.0,已关闭,万晓剑,万晓剑,2019/05/30,,https://jira.qiaofangyun.com/browse/SAAS1-363
+青岛乐士居：V10房源信息修改同步真房库，同步时间不满足定时任务规定的10分钟限制，已达3个半小时,P2,SaaS 1.0,开放,毛成,周大洋,2019/05/30,房源,https://jira.qiaofangyun.com/browse/SAAS1-362
+上海宝显：帮助-在线充值，报错,P2,SaaS 1.0,已关闭,龙如春,龙如春,2019/05/30,,https://jira.qiaofangyun.com/browse/SAAS1-361
+淮北中墅：员工离职不会自动解绑手机端，  员工1月份离职的在5月份的时候还在通过手机端查看房源客源以及业主联系方式   反馈人：  15205616880,P2,SaaS 1.0,已解决,冯佳顺,冯佳顺,2019/05/29,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-357
+合肥中科：房源YXSB0180030  非封盘，非保护房，未推送到真房库同步58,P2,SaaS 1.0,开放,张阳02,周大洋,2019/05/29,房源,https://jira.qiaofangyun.com/browse/SAAS1-356
+新乡市恒进房地产：交易中，意向金定金，附件重新上传，点击选完图片后，弹窗无上传的附件显示，sso可重现,P2,SaaS 1.0,开放,田迎秋,蔡晓铖,2019/05/29,交易,https://jira.qiaofangyun.com/browse/SAAS1-355
+上海瑞阳:需要操作最近被转错的房客源源,P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/05/29,房源,https://jira.qiaofangyun.com/browse/SAAS1-354
+重庆优悦：首页显示的公司个人排名以及区域个人排名同一个人显示的数据不一致,P3,SaaS 1.0,开放,张阳02,冯佳顺,2019/05/29,首页,https://jira.qiaofangyun.com/browse/SAAS1-350
+钦州蓝海：员工李一飞、林丹娜交易已结盘，但是离职时提示：该员工负责过户或交房的案件暂未结案，不能离职。但是反审结盘后过户手续又没有申请审批,P2,SaaS 1.0,已关闭,苗明明,龚杰,2019/05/29,交易,https://jira.qiaofangyun.com/browse/SAAS1-349
+"成都宏盛发:请假审批,审批人帐号搜索不到这个任务",P3,SaaS 1.0,开放,苗明明,赵兴,2019/05/28,,https://jira.qiaofangyun.com/browse/SAAS1-345
+成都盛合:房源照片无法删除,P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/05/28,房源,https://jira.qiaofangyun.com/browse/SAAS1-344
+无锡开元：员工吴娟今日行程房跟和客跟显示5，但是实际这个员工今日并未有跟进记录,P3,SaaS 1.0,开放,苗明明,龚杰,2019/05/28,首页,https://jira.qiaofangyun.com/browse/SAAS1-343
+福美来网·顾村片区：app，上传带看单附件，报错,P1,SaaS 1.0,已解决,张东梅,龙如春,2019/05/28,客源,https://jira.qiaofangyun.com/browse/SAAS1-339
+乐山值信：审批流程类任务，在任务管理中没有查看详情按钮，,P2,SaaS 1.0,处理中,张阳02,周大洋,2019/05/28,,https://jira.qiaofangyun.com/browse/SAAS1-338
+上海易居:组织机构里面员工全部消失,P1,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/28,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-337
+上海肖恩：楼盘字典中坐标位置有标记，并且方圆10公里内有地铁线路，但是对应的房源列表页和详情页没有生成地铁信息,P2,SaaS 1.0,处理中,张阳02,龙如春,2019/05/28,房源,https://jira.qiaofangyun.com/browse/SAAS1-336
+阿里分区客户，帮助-在线充值 无法打开,P1,SaaS 1.0,已关闭,万晓剑,万晓剑,2019/05/28,,https://jira.qiaofangyun.com/browse/SAAS1-335
+徐州开心房产：多家公司反馈，app，首页点击更多，服务异常，苹果、安卓都是如此,P1,SaaS 1.0,已关闭,文平,龙如春,2019/05/28,,https://jira.qiaofangyun.com/browse/SAAS1-334
+南宁市三迪房地产：设置了客源四级人员查重，但五级部门的人员新增四级部门中已存在的相同客源，系统不提示重复，可以保存,P2,SaaS 1.0,已关闭,苗明明,蔡晓铖,2019/05/27,客源,https://jira.qiaofangyun.com/browse/SAAS1-329
+成宏地产：苹果app，实勘详情页面，点击图片，不显示大图,P2,SaaS 1.0,开放,苗明明,龙如春,2019/05/27,,https://jira.qiaofangyun.com/browse/SAAS1-322
+六安棒点：张军 ，房源列表页，列表选项重复,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/05/27,房源,https://jira.qiaofangyun.com/browse/SAAS1-321
+珠海华发：一个交易 成交报告阶段无法审核,P2,SaaS 1.0,开放,张阳02,万晓剑,2019/05/27,交易,https://jira.qiaofangyun.com/browse/SAAS1-320
+上海彩屋：房源查询用户选择一房查询出来的数量与实际不符,P2,SaaS 1.0,开放,苗明明,张秀明,2019/05/27,房源,https://jira.qiaofangyun.com/browse/SAAS1-319
+上海创客：客源列表查不到数据,P1,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/27,客源,https://jira.qiaofangyun.com/browse/SAAS1-318
+哈尔滨悦居:新增栋座/批量生成栋座的修改  保存报错。,P2,SaaS 1.0,开放,苗明明,周大洋,2019/05/27,楼盘字典,https://jira.qiaofangyun.com/browse/SAAS1-317
+苏州一晟金街;新增/修改房源保存提示错误信息600,P1,SaaS 1.0,已关闭,苗明明,周大洋,2019/05/26,房源,https://jira.qiaofangyun.com/browse/SAAS1-316
+安徽棒点:大部分员工房源列表列重复,P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/05/25,,https://jira.qiaofangyun.com/browse/SAAS1-312
+"洛阳懿皇:房源8BM0643282改为有效,没有生成审批",P3,SaaS 1.0,开放,苗明明,赵兴,2019/05/25,房源,https://jira.qiaofangyun.com/browse/SAAS1-311
+上海易居房友世博店：需要将	“系统管理组外的 部门 人员全清掉”,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/24,,https://jira.qiaofangyun.com/browse/SAAS1-302
+重庆巴南诚信中介联盟:商务号绑定提示系统错误,P1,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/24,,https://jira.qiaofangyun.com/browse/SAAS1-293
+嘉兴中远地产:组织机构无部门,P2,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/24,,https://jira.qiaofangyun.com/browse/SAAS1-283
+上海炯嘉：手机APP没有编辑房源的按键，权限都是有的,P2,SaaS 1.0,开放,苗明明,龚杰,2019/05/24,房源,https://jira.qiaofangyun.com/browse/SAAS1-282
+5.23号上海分区部份客户迁移到阿里分区后， 数据显示不对,P1,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/24,房源,https://jira.qiaofangyun.com/browse/SAAS1-279
+交易  1902451，没有未收，未收业绩拆佣表中有未收业绩,P2,SaaS 1.0,开放,张阳02,龙如春,2019/05/23,财务,https://jira.qiaofangyun.com/browse/SAAS1-267
+厦门海希： 通过系统的员工转房客，房源列表归属人显示不更新,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/23,房源,https://jira.qiaofangyun.com/browse/SAAS1-258
+厦门锦呈晖：管理选项中设置的，每条有效/非有效，房源/客源 可以拨打X次/天，对商务号未做限制。,P2,SaaS 1.0,已关闭,苗明明,周大洋,2019/05/23,房源,https://jira.qiaofangyun.com/browse/SAAS1-256
+兰州诚一：恢复一个被删除的楼盘字典,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/22,,https://jira.qiaofangyun.com/browse/SAAS1-255
+宁波甬旺：恢复房源“ZEDV0371671” 里面被删除的跟进,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/22,,https://jira.qiaofangyun.com/browse/SAAS1-254
+上海昊辰：房源 LC007037，10天内的带看次数，房源列表和详情页面显示的数目不一致,P2,SaaS 1.0,处理中,苗明明,龙如春,2019/05/22,房源,https://jira.qiaofangyun.com/browse/SAAS1-253
+晋城世纪坊：实勘审核通过后， 房源里面重复生成了实勘照片,P3,SaaS 1.0,处理中,许婷,万晓剑,2019/05/22,房源,https://jira.qiaofangyun.com/browse/SAAS1-252
+安徽中墅房地产：房源里图片水印的大小会根据图片的大小而改变，目前所有公司系统里都是这样,P1,SaaS 1.0,处理中,张阳02,蔡晓铖,2019/05/22,房源,https://jira.qiaofangyun.com/browse/SAAS1-250
+上海巧房：营销号开通导入，V10系统不显示,P2,SaaS 1.0,处理中,毛成,万晓剑,2019/05/22,,https://jira.qiaofangyun.com/browse/SAAS1-248
+广州中鸿：录入钥匙，可以多次重复生成,P2,SaaS 1.0,处理中,田迎秋,周大洋,2019/05/22,房源,https://jira.qiaofangyun.com/browse/SAAS1-246
+巧房（苏州）客户演示平台：房源列表，无法过滤房型,P2,SaaS 1.0,开放,苗明明,龙如春,2019/05/21,房源,https://jira.qiaofangyun.com/browse/SAAS1-244
+"咸阳玛雅:实堪已审,还是显示待审核",P3,SaaS 1.0,开放,苗明明,赵兴,2019/05/21,房源,https://jira.qiaofangyun.com/browse/SAAS1-242
+洛阳懿皇：房源 FY1708181635  实勘审批通过，图片未同步到房源中,P2,SaaS 1.0,开放,许婷,龙如春,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-240
+新乡美满：需要删除系统中未关联客源的带看单,P2,SaaS 1.0,已关闭,苗明明,万晓剑,2019/05/20,,https://jira.qiaofangyun.com/browse/SAAS1-239
+上海鼎铭 房源DTR0153319 图片排序存在问题导致真房同步出错,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/05/05,房源,https://jira.qiaofangyun.com/browse/SAAS1-238
+合肥吉大：报表--跟进报表--员工--方式   跟进方式多了一列‘299’ 系统里并没有设置这一类似的跟进方式,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/05/19,房源,https://jira.qiaofangyun.com/browse/SAAS1-237
+上海永年：主叫 13661868554  商务号 17177791769  5/15  有通话，平台有录音，V10中没有记录,P2,SaaS 1.0,已关闭,龙如春,龙如春,2019/05/15,,https://jira.qiaofangyun.com/browse/SAAS1-236
+湖南房家：房源 HJE005126 ，实勘审批已通过，状态还显示待审核,P2,SaaS 1.0,已关闭,赵兴,龙如春,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-235
+山东三宇：房源ALGD001830 ，实勘已经审批通过，状态还显示 待审核，,P2,SaaS 1.0,已关闭,赵兴,龙如春,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-234
+中山创二：房源LJ2000872 实堪已经审核通过，但是图片未同步,P2,SaaS 1.0,已关闭,赵兴,周大洋,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-231
+济南知了：房源：ZJ1831388   实勘审核已通过，但是实勘列表和房源详情里显示待审核。,P2,SaaS 1.0,已关闭,赵兴,龚杰,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-230
+西安宏盛：打开交易托管合同界面，提示此功能没有开通，已经跟上线部门确认开通的是标准版本   反馈人：15353591623,P3,SaaS 1.0,已关闭,苗明明,冯佳顺,2019/05/20,交易,https://jira.qiaofangyun.com/browse/SAAS1-229
+厦门海希：房源SZ20759645 实堪审批流程问题,P2,SaaS 1.0,已关闭,赵兴,周大洋,2019/05/20,房源,https://jira.qiaofangyun.com/browse/SAAS1-226
+洛阳懿皇：新增带看审核，流程管理--任务列表中显示驳回，但是在审批详情页和带看详情页中，该带看还是待审核状态。,P2,SaaS 1.0,已解决,张东梅,周大洋,2019/05/20,,https://jira.qiaofangyun.com/browse/SAAS1-225
+无锡盛世家园：交易附件图片上传，关联交易错误。,P1,SaaS 1.0,已关闭,周大洋,周大洋,2019/05/19,交易,https://jira.qiaofangyun.com/browse/SAAS1-224
+上海瑞宅驰程地产：实勘审批通过，状态还显示待审核，实勘图片也没有同步到房源中，先处理下数据，2019-05-19 09:44:03，房源VY520304350,P2,SaaS 1.0,已关闭,赵兴,龙如春,2019/05/19,房源,https://jira.qiaofangyun.com/browse/SAAS1-223
+"厦门海希:实堪已审核,但还是提示待审核",P2,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/18,房源,https://jira.qiaofangyun.com/browse/SAAS1-221
+中山创二:15521594025 13549837463 触宝 2a3d3459785111e99243a607e1829cfc 2019-05-17 11:09  录音过期,P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/05/18,房源,https://jira.qiaofangyun.com/browse/SAAS1-220
+"山东三宇:部分已上架到房源,点击下载名片时,显示的电话不是登录员工的",P2,SaaS 1.0,已关闭,苗明明,赵兴,2019/05/17,房源,https://jira.qiaofangyun.com/browse/SAAS1-217
+重庆科尚：苹果手机，带看单中查看房源业主，无法使用商务号回访业主,P2,SaaS 1.0,已关闭,苗明明,龙如春,2019/05/16,,https://jira.qiaofangyun.com/browse/SAAS1-214
+重庆科尚：苹果手机，app首页，无法自定义  我的应用,P2,SaaS 1.0,已解决,李贺贺,龙如春,2019/05/16,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-213
+无锡博邦：系统里没有新审批流程查看，审批的入口,P2,SaaS 1.0,已关闭,毛成,龙如春,2019/05/16,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-211
+厦门海希：点名工具，请假，可以不填写对应的天数，就能保存,P2,SaaS 1.0,已解决,张东梅,周大洋,2019/05/16,,https://jira.qiaofangyun.com/browse/SAAS1-210
+珠海华发：新增业绩分成人员， 人员显示不正确,P2,SaaS 1.0,已解决,马士明,万晓剑,2019/05/16,交易,https://jira.qiaofangyun.com/browse/SAAS1-204
+苏州博宇：4月27号之后话单没有在获取，反馈人：18662299288  陶先生,P1,SaaS 1.0,已关闭,毛成,冯佳顺,2019/05/16,,https://jira.qiaofangyun.com/browse/SAAS1-203
+中山创二：实勘审批流程已通过，实勘详情页，房源详情页，还是待审核中,P2,SaaS 1.0,已关闭,毛成,周大洋,2019/05/16,房源,https://jira.qiaofangyun.com/browse/SAAS1-199
+"厦门海希:房源SZ30183243,实堪审核通过后,实堪图片同步了双份",P3,SaaS 1.0,已关闭,毛成,赵兴,2019/05/16,房源,https://jira.qiaofangyun.com/browse/SAAS1-197
+"宁波荣庭:在遮盖 栋座房号的情况下,打印票据时 栋座房号不显示",P1,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/16,房源,https://jira.qiaofangyun.com/browse/SAAS1-195
+昆山全家福：新增任务时关联房源时，按照楼盘名称和栋座搜索时信息不全,P2,SaaS 1.0,已关闭,张东梅,龚杰,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-194
+新都宏盛发：业绩龙虎榜显示业绩与实际不符,P3,SaaS 1.0,开放,毛成,龚杰,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/SAAS1-193
+"厦门海希:实堪已审核,还是提示审核中",P3,SaaS 1.0,已关闭,毛成,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-192
+福建鑫诚：员工张启财，有本部的部分修改价格，面积等权限，手机端修改不了，电脑端正常,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/SAAS1-190
+"无锡优房:客源详情页,最后带看房源排序有问题",P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-189
+新乡美满：设置了每条房源可拨打5次/天，但拨打超过5次依旧能正常打,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-188
+"湖南房家:房源有效审核驳回到暂缓,列表里不显示审核不通过",P2,SaaS 1.0,开放,毛成,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-187
+"中山创二:实堪已审核通过 ,还是显示待审核",P2,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-186
+青岛大唐佳业： 风情蓝岸店 刘晓岩 ，3月份提成统计有误，提成业绩是1040，其中有600的提成业绩没有计算到提成，显示null,P2,SaaS 1.0,开放,张阳02,龙如春,2019/05/15,财务,https://jira.qiaofangyun.com/browse/SAAS1-185
+南昌齐家：首页显示负90多万末收，和交易里数据不对应,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,首页,https://jira.qiaofangyun.com/browse/SAAS1-184
+哈尔冰候鸟：员工工资单，导入考勤扣款数据，不统计扣款,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,财务,https://jira.qiaofangyun.com/browse/SAAS1-183
+上海昊辰 自动转房客规则执行有误，如房源PFB0006204，01-06执行了规则2，最后跟进超过90天，应该是10-7号有跟进，没有相关跟进记录和删除记录，11.22和07.09的跟进都不满足,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-182
+厦门巨远：首页公司业绩显示有误，应该是17.16万，更多里查看本月新增签约业绩也正确,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,首页,https://jira.qiaofangyun.com/browse/SAAS1-181
+问题：南京瑞满庭：手机app接受到的新闻公告，排版有问题，电脑端显示正常，手机端不换行,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-180
+安徽中墅：员工 张嘉琪，3/1电脑端和手机端没有登录过系统，日志中有查看业主记录,P3,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-179
+武汉御景房产：带看审核，点击审核通过，无反应，关闭页面重新加载后，这个带看审核已通过,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-178
+问题：湖南房家：电脑端设置写工作总结字数限制最少50，手机端写总结不字数不受限制，本地可以重现,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-177
+新都宏盛发：新审批流程，申请房源委托，手机端审批时，委托方式显示有误,P2,SaaS 1.0,开放,毛成,龙如春,2019/05/15,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-176
+上海翙家：首页-门店业绩-当月已收佣金统计有误,P2,SaaS 1.0,开放,陈江浪,龙如春,2019/05/15,首页,https://jira.qiaofangyun.com/browse/SAAS1-175
+重庆科尚：房源ARHM0271759实勘已通过，房源详情页面里显示待审核,P2,SaaS 1.0,已关闭,赵兴,龚杰,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-173
+上海慧智：用户反馈新增的房源会丢失 而且测试发现（愚园路750弄）这个楼盘的房源 栋规已设置在无栋座的情况下还是可以新增房源,P2,SaaS 1.0,开放,丁嘉伦,张秀明,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-172
+新乡美满:首页公司财务模块，数据有问题,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,首页,https://jira.qiaofangyun.com/browse/SAAS1-171
+上海千叶：manager交易管理交易 日期选择不限按照部门查询的交易量少了,P3,SaaS 1.0,开放,毛成,张秀明,2019/05/15,交易,https://jira.qiaofangyun.com/browse/SAAS1-170
+扬州挑个好房：严红梅手机端上编辑房源不能标记优质房等标签 灰色的不能选择,P2,SaaS 1.0,开放,毛成,张秀明,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-169
+"合肥吉大:部分员工,员工自己在首页业绩排名底部不显示",P2,SaaS 1.0,开放,尤连来,赵兴,2019/05/15,首页,https://jira.qiaofangyun.com/browse/SAAS1-168
+湖南房家：商务号拨打资料客 拨打的这条资料客状态未变为已拨,P2,SaaS 1.0,开放,马士明,张秀明,2019/05/15,客源,https://jira.qiaofangyun.com/browse/SAAS1-167
+"上海和润:excel复制到公告后,表格线看不清 -",P4,SaaS 1.0,开放,毛成,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/SAAS1-166
+临海链诚：奖罚补贴管理 模板导入报错,P2,SaaS 1.0,开放,马士明,张秀明,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-165
+聊城壹号：房源KF0163960实堪审批流程已经通过，实堪详情页和房源详情页还是待审核状态,P2,SaaS 1.0,已关闭,赵兴,周大洋,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-164
+湖南房家：用户反馈经常打卡了但是打卡记录里面不显示,P1,SaaS 1.0,开放,王传建,张秀明,2019/05/15,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-163
+昆山名赫：带看审核通过 ，没有反应,P2,SaaS 1.0,处理中,周威,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/SAAS1-162
+"西安元亨:手机端收到房源采集的关注房源的提醒 ,打开报错,并且个人关注里不会显示",P3,SaaS 1.0,开放,毛成,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/SAAS1-161
+"上海瑞阳:员工有部分修改权限,但是无法更改房源建房年代",P2,SaaS 1.0,开放,陈冰,赵兴,2019/05/15,房源,https://jira.qiaofangyun.com/browse/SAAS1-160
+厦门海希:手机端实堪时选择图片会自动跳回,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-159
+问题：重庆腾宇：开启了登录自动打卡，经纪人 高笋塘店 吴汝寒 上班前登录系统，系统未自动打卡,P3,SaaS 1.0,开放,毛成,龙如春,2019/05/14,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-158
+青岛乐士居:经常出现房源权益方显示错误的情况,P3,SaaS 1.0,开放,毛成,赵兴,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-157
+重庆腾宇：新入职经纪人的考勤统计有问题,P2,SaaS 1.0,开放,郭晓龙,龙如春,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/SAAS1-156
+"新乡恒进:从新房发动态公告,其他员工首页不显示,也不会弹出",P3,SaaS 1.0,开放,毛成,赵兴,2019/05/14,新房,https://jira.qiaofangyun.com/browse/SAAS1-155
+问题：重庆腾宇：经纪人 王小东，3月份工资单中，公积金、社保，重复扣除,P2,SaaS 1.0,已解决,张阳02,龙如春,2019/05/14,财务,https://jira.qiaofangyun.com/browse/SAAS1-154
+湖南房家：经纪人手机端上班已打卡成功，电脑端不显示打卡记录,P2,SaaS 1.0,开放,王传建,龙如春,2019/05/14,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-153
+"山东三宇:房源MSA011529,实堪已审核通过,但是实堪里的照片没同步到房源下",P2,SaaS 1.0,已关闭,赵兴,赵兴,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-152
+无锡盛世家园：交易 SSJY0006583 ，过户流程中有上传附件，经纪人反馈没有上传过，需要检查附件上传的操作记录,P3,SaaS 1.0,已关闭,毛成,龙如春,2019/05/14,系统设置,https://jira.qiaofangyun.com/browse/SAAS1-150
+上海嘉锐地产：导入的客源， 有多个联系方式，只有第一个电话可以搜索到客源，如果手动新增联系方式，多个联系方式都可以搜索到客源，如客源WH000576、ZL001761,P2,SaaS 1.0,开放,刘朝刚,龙如春,2019/05/14,客源,https://jira.qiaofangyun.com/browse/SAAS1-149
+商丘安家：新增员工赵波入职时间是2019-5月15日，但是系统显示工龄为11月30天,P3,SaaS 1.0,开放,许婷,龚杰,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-148
+上海淘一安家：交易 TX000876 ，录入成本，减扣应收，业绩龙虎榜金额统计有误,P3,SaaS 1.0,开放,毛成,龙如春,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/SAAS1-147
+济南三宇：考勤扣款中的  应出勤天数 显示异常,P1,SaaS 1.0,已关闭,毛成,万晓剑,2019/05/14,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-146
+厦门翔新：房源列表页--右键过滤（房型）查询，功能不生效了,P2,SaaS 1.0,开放,陈冰,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-145
+上海海众：房源列表页部分房源显示发布到了微门店，但详情页面并未发布,P2,SaaS 1.0,已关闭,张东梅,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-144
+测试,P1,SaaS 1.0,已关闭,毛成,冯佳顺,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-143
+"青岛乐士居:员工李颖客户端发邮件,一直提示保存中",P3,SaaS 1.0,开放,毛成,赵兴,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-142
+科尚居久屋：房源编号：	ARHM0271759，实勘已经审批通过，但状态还是显示待审核,P2,SaaS 1.0,已关闭,赵兴,蔡晓铖,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-141
+"重庆腾宇:客户昨天更改了员工的上下班时间,结果考勤汇总里,所有之前正常的考勤都变成了迟到早退",P3,SaaS 1.0,开放,毛成,赵兴,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-140
+湖南房家:房源 CB20121489的房堪有部分图片不显示,P1,SaaS 1.0,已关闭,毛成,赵兴,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-139
+湖南房家网：手机端外勤打卡，有一些打卡记录里无定位地址显示,P3,SaaS 1.0,开放,毛成,蔡晓铖,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-138
+重庆市胜凯房产：房源编号BJJ0008659，SY0120642实勘显示待审核状态，但已经审核通过,P2,SaaS 1.0,已关闭,赵兴,蔡晓铖,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-137
+好邻居地产：房源详情页里房型图下载下来是一个网页，且该网页打开提示无权限,P2,SaaS 1.0,开放,罗权威,蔡晓铖,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-136
+安徽昊光房地产评估经纪咨询有限公司：系统工具--管理选项--房源管理 只有写入跟进才更新房源的【最后跟进日】，修改房源不更新 未勾选修改房源资料信息，不更新最后跟进时间,P2,SaaS 1.0,开放,罗权威,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-135
+碧桂园：手机app 客源里166的号码无法录入，电脑端可以,P3,SaaS 1.0,开放,毛成,蔡晓铖,2019/05/14,客源,https://jira.qiaofangyun.com/browse/SAAS1-134
+广州中鸿：手机回拨拨打，平台话单已获取，通话记录中有对应拨打记录，房源详情页录音未关联显示,P3,SaaS 1.0,开放,倪晓强,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-133
+南充 万辰：实勘已审核，但是状态还是显示待审核状态。房源编号：QY0180495,P2,SaaS 1.0,已关闭,赵兴,张阳阳,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-132
+昆山全家福房产：员工刘川鹏4月17日请假审批已通过，但考勤汇总里不显示,P3,SaaS 1.0,开放,毛成,蔡晓铖,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-131
+济南中豪：员工赵惠，员工工资汇总的查看权限是本部，但是查看的时候可以看到跨部的数据 反馈人：17753196560,P3,SaaS 1.0,开放,毛成,冯佳顺,2019/05/14,财务,https://jira.qiaofangyun.com/browse/SAAS1-130
+重庆科尚：ios系统手机APP无法选择商务号拨打业主,P3,SaaS 1.0,开放,毛成,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-129
+江阴易策地产：新房报备审核店长的权限是本部的，但是看不到组下员工的报备记录，是同一个部门的，店长名字颜振华， 组员名字邵强 反馈人：13564656141,P3,SaaS 1.0,开放,毛成,冯佳顺,2019/05/14,新房,https://jira.qiaofangyun.com/browse/SAAS1-128
+青岛大唐：员工内部邮件未读邮件点击回复之后还是在未读中重复提示 可以查看谈文静 反馈人：18561958665,P4,SaaS 1.0,开放,毛成,冯佳顺,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-127
+温州万豪：苹果手机APP。新房列表页，不显示新房佣金信息。,P2,SaaS 1.0,开放,文平,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-126
+深圳成宏： 同一带看单在系统里显示2次,P3,SaaS 1.0,开放,毛成,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-125
+湖南房家：关闭客户端，系统不生成退出操作日志。,P2,SaaS 1.0,开放,丁嘉伦,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-124
+成都世界树：首页，成交战报 无数据展示。,P2,SaaS 1.0,开放,姜路,周大洋,2019/05/14,首页,https://jira.qiaofangyun.com/browse/SAAS1-123
+"中山创二:新房楼盘里部分维护方员工,头像不显示",P2,SaaS 1.0,已解决,张东梅,赵兴,2019/05/14,新房,https://jira.qiaofangyun.com/browse/SAAS1-122
+上海胜邦：楼盘字典- 房号规则“楼盘+字母” 有误,P2,SaaS 1.0,已关闭,万晓剑,万晓剑,2019/05/14,楼盘字典,https://jira.qiaofangyun.com/browse/SAAS1-121
+"郴州自信地产：实勘已审核通过，还显示待审核状态，房源编号0009575，0045392,70023061,0033215,0102984,0062918",P2,SaaS 1.0,已关闭,赵兴,蔡晓铖,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-120
+中山创二：手机端接收不到 部份新闻公告,P2,SaaS 1.0,开放,倪晓强,万晓剑,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-119
+雅安尚居：有多个意向地址的客源，在客源详情页里点下一客源翻页无效，测试库测试也如此,P2,SaaS 1.0,已解决,张东梅,蔡晓铖,2019/05/14,客源,https://jira.qiaofangyun.com/browse/SAAS1-118
+新乡美满：自动转房客规则-营销来电转客源， 规则编辑后，转入方显示不正确,P3,SaaS 1.0,开放,毛成,万晓剑,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-117
+徐州开心：从首页待审核房源进入房源列表页，点击查看的房源详情页面没有上一条，下一条按钮，原先有的,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-115
+上海瑞阳：楼盘字典里面的定位，显示到北京、河北等,P2,SaaS 1.0,已解决,万晓剑,万晓剑,2019/05/14,楼盘字典,https://jira.qiaofangyun.com/browse/SAAS1-114
+上海聚阁：员工吴新松，手机端看房源跟进比电脑端的少，且手机端在员工处只能选到自己，如房源bz0563312,P3,SaaS 1.0,开放,毛成,蔡晓铖,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-113
+杭州新依：员工导出，”户籍性质“ 导出的信息和系统不匹配,P1,SaaS 1.0,已关闭,张阳02,万晓剑,2019/05/14,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-111
+珠海华发：数据从房友导入巧房， 业绩分成的小位数只导入了2位,P2,SaaS 1.0,开放,马士明,万晓剑,2019/05/14,交易,https://jira.qiaofangyun.com/browse/SAAS1-110
+深圳碧桂园：反馈员工余娴手机端打卡，但是没有记录,P3,SaaS 1.0,开放,王传建,龚杰,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-109
+厦门海希：网络营销部--朱丽琳  4月点名统计，数据 统计出错，,P2,SaaS 1.0,开放,未分配,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-108
+池州顺丰：运营分析-通话记录有录音记录， 房源详情页没有,P1,SaaS 1.0,处理中,倪晓强,万晓剑,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-106
+上海和信元：票据仓库--签发票据无响应。,P2,SaaS 1.0,重新打开,张阳02,周大洋,2019/05/14,财务,https://jira.qiaofangyun.com/browse/SAAS1-103
+广州中鸿：手机回拨拨打，平台话单已获取，通话记录中有对应拨打记录，房源详情页录音未关联显示,P2,SaaS 1.0,开放,倪晓强,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-102
+武夷山丽特：安卓系统巧房助手新增客源电话不识别无效号码，依然可以保存,P2,SaaS 1.0,已解决,龚杰,龚杰,2019/05/14,,https://jira.qiaofangyun.com/browse/SAAS1-101
+宁波甬旺：房源ZEDV0371671删除后在还原，所有跟进时间被修改为同一时间了。,P3,SaaS 1.0,开放,毛成,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/SAAS1-100
+成都世界树： 新增员工/修改员工时职务授权，提示错误。,P2,SaaS 1.0,已关闭,周大洋,周大洋,2019/05/14,组织结构,https://jira.qiaofangyun.com/browse/SAAS1-99
+无锡豪阁：经纪人 韦庆和，主页区域本月签约业绩和详情页面的签约业绩不符,P3,SaaS 1.0,开放,许婷,龙如春,2019/05/13,首页,https://jira.qiaofangyun.com/browse/SAAS1-98
+上海国堃房地产经纪有限公司：账号钱改革，微门店已授权，也有权限，但房源里没有上下架操作的按键,P3,营销项目,开放,崔铃基,蔡晓铖,2019/06/06,微门店,https://jira.qiaofangyun.com/browse/MARKETING-3048
+宁波优房：部份员工  在个人设置中 不显示微门店个人名片,P2,营销项目,开放,崔铃基,万晓剑,2019/06/05,微门店,https://jira.qiaofangyun.com/browse/MARKETING-3045
+西安云客：员工杨俊哲采房界面报错,P2,营销项目,开放,崔铃基,龚杰,2019/06/03,采房,https://jira.qiaofangyun.com/browse/MARKETING-3021
+上海安黛：客户购买了15个微门店端口已经和上线部门同事确认，但是V10系统上面只显示10个   反馈人：销售,P2,营销项目,已关闭,崔铃基,冯佳顺,2019/05/31,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2975
+上海安黛房地产：微门店端口已开通15个，v10里只显示10个,P3,营销项目,已关闭,苗明明,蔡晓铖,2019/05/30,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2974
+咸阳玛雅地产。房源编号QC0088884的房源巧房系统上有开盘方、实勘方都是有的，但是同步到58后台角色人变成系统管理员,P2,营销项目,开放,刘绯,周大洋,2019/05/28,,https://jira.qiaofangyun.com/browse/MARKETING-2949
+微门店2.0测试中的几个问题,P2,营销项目,已关闭,束毅,万晓剑,2019/05/27,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2920
+芜湖市美联房产：员工账号潘志远，有房源已添加至微门店个人精选，但在APP精选房源里无房源显示,P3,营销项目,开放,崔铃基,蔡晓铖,2019/05/27,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2919
+武汉华明达：房源添加照片后， 微门店中房源不显示,P2,营销项目,开放,崔铃基,万晓剑,2019/05/24,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2901
+淮阳县爱宜家：员工韩超建系统添加了个人精选，微门店不显示,P2,营销项目,开放,崔铃基,龚杰,2019/05/24,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2900
+合肥好来屋：客户修改了V10中的房源的楼盘字典名称，真房未同步,P2,营销项目,开放,毛成,周大洋,2019/05/21,,https://jira.qiaofangyun.com/browse/MARKETING-2787
+重庆三科：真房房源同步问题,P2,营销项目,开放,周大洋,周大洋,2019/05/21,,https://jira.qiaofangyun.com/browse/MARKETING-2786
+济南中豪：真房员工绑定，报错,P1,营销项目,已关闭,赵兴,周大洋,2019/05/17,真房,https://jira.qiaofangyun.com/browse/MARKETING-2728
+商丘市安家：员工王庆，手机端微门店中的精选房源为空，实际有添加到个人精选的房源,P3,营销项目,开放,崔铃基,蔡晓铖,2019/05/17,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2721
+上海唯宝：发放提示帐号已登录，无发房权限,P2,营销项目,已关闭,杨基伟,龚杰,2019/05/16,发房,https://jira.qiaofangyun.com/browse/MARKETING-2707
+山东利泽：房源有加入到个人精选，但微门店中查看无房源,P1,营销项目,已关闭,周大洋,周大洋,2019/05/16,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2705
+温州力仕：经纪人把房源添加个人精选，个人微门店精选中不显示,P1,营销项目,开放,崔铃基,龙如春,2019/05/15,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2691
+西安元亨：李永鹏 微门店分享的连接不显示头像照片,P2,营销项目,开放,崔铃基,张秀明,2019/05/15,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2687
+晋城世纪坊：V10中房源先发布到微门店，后关联了全景图片；微门店中全景图片不更新展示，需要重新上下架房源才更新,P2,营销项目,开放,崔铃基,周大洋,2019/05/14,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2685
+徐州伯特利：已让上线部更换公众号，但是扫描二维码还是之前的公众号。新的名字叫：点金手购房服务。员工：徐森,P3,营销项目,开放,崔铃基,张阳阳,2019/05/14,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2684
+宜昌科威：微门店客户游览房源业务员手机端推送延迟，反馈人：18507202868 黄,P3,营销项目,开放,崔铃基,冯佳顺,2019/05/14,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2683
+宁波甬旺：通过服务平台延期 微门店服务不生效,P3,营销项目,开放,崔铃基,万晓剑,2019/05/14,微门店,https://jira.qiaofangyun.com/browse/MARKETING-2682
+懿皇，房源编号为 FY1708161697的房源，在5月7号将房源修改为有效状态，但是同步到58网络门店依然显示的是成交状态。,P2,营销项目,已关闭,周大洋,周大洋,2019/05/13,真房,https://jira.qiaofangyun.com/browse/MARKETING-2680
+洛阳懿皇：房源YF0710712 V10中修改了房源朝向，真房库中未更新,P2,营销项目,已关闭,毛成,周大洋,2019/05/09,真房,https://jira.qiaofangyun.com/browse/MARKETING-2535
+合肥中科 房源都已设置保护房，但是58侧还有96套房源展示。比如这房源FHYY0006094,P2,营销项目,已关闭,周大洋,周大洋,2019/05/05,真房,https://jira.qiaofangyun.com/browse/MARKETING-2335
+青岛乐士居，房源CV0424289，价格有修改，但是真房及58为同步,P2,营销项目,已关闭,周大洋,周大洋,2019/04/29,真房,https://jira.qiaofangyun.com/browse/MARKETING-2315
+青岛乐士居，U3K0041933 房源V10中修改了户型，58侧未修改,P2,营销项目,已关闭,周大洋,周大洋,2019/04/28,真房,https://jira.qiaofangyun.com/browse/MARKETING-2304
+洛阳懿皇，V10已经设置已售、保护房的房源，真房也在进行推送同步,P2,营销项目,已关闭,周大洋,周大洋,2019/04/27,真房,https://jira.qiaofangyun.com/browse/MARKETING-2303
+洛阳懿皇：房源价格修改后，同步到网络门店的是修改前的价格,P2,营销项目,已关闭,万晓剑,万晓剑,2019/04/25,真房,https://jira.qiaofangyun.com/browse/MARKETING-2297
+洛阳懿皇，FY170506141  FY1708191524 房源已取消保护房，但没有被推真房,P2,营销项目,已关闭,周大洋,周大洋,2019/04/24,真房,https://jira.qiaofangyun.com/browse/MARKETING-2136
+洛阳懿皇，员工李帅峰、赵晨宇 打开真房推广，提示错误，没有绑定手机号,P2,营销项目,已关闭,周大洋,周大洋,2019/04/21,真房,https://jira.qiaofangyun.com/browse/MARKETING-2030
+青岛乐士居，房源V10中有修改了售价，真房推广库及58网络门店中都没有更新，,P2,营销项目,已关闭,周大洋,周大洋,2019/04/21,真房,https://jira.qiaofangyun.com/browse/MARKETING-2029
+洛阳懿皇房源图片同步到真房类型错误。,P2,营销项目,已关闭,周大洋,周大洋,2019/04/21,真房,https://jira.qiaofangyun.com/browse/MARKETING-2028
+咸阳玛雅房屋，真房房源同步失败，返回结果磐石小区id or (小区名称和区域) 二选一必填,P2,营销项目,已关闭,周大洋,周大洋,2019/04/17,真房,https://jira.qiaofangyun.com/browse/MARKETING-1958
+湘潭中游地产	 手机APP，审批流程和审批任务点开就是网络连接不上,P1,大客户部,已解决,周大洋,周大洋,2019/06/10,,https://jira.qiaofangyun.com/browse/KAD-819
+株州中游:进入积分统计 报错,P1,大客户部,开放,王刚刚,赵兴,2019/06/09,大客户,https://jira.qiaofangyun.com/browse/KAD-791
+"温州万豪:微门店分享异常,分享出去的连接无法打开",P1,大客户部,开放,王刚刚,赵兴,2019/06/06,大客户,https://jira.qiaofangyun.com/browse/KAD-783
+"中游湘潭:安卓app新增房源时,归属人2不填无法进行下一步",P2,大客户部,开放,杨明,赵兴,2019/06/05,房源,https://jira.qiaofangyun.com/browse/KAD-776
+广州兴业： 员工转房客， 转移 “花都臻悦府突击队 曾金红 ”  名下资源时 报错,P2,大客户部,开放,王刚刚,万晓剑,2019/06/05,房源,https://jira.qiaofangyun.com/browse/KAD-774
+株洲中游：交易TX000213 新增保存后，除了交易概要外没有其他阶段及交易状态,P2,大客户部,开放,苗明明,周大洋,2019/06/04,交易,https://jira.qiaofangyun.com/browse/KAD-764
+广州兴业：需要批量将一部份封盘转成公盘,P2,大客户部,已解决,杨立芳,万晓剑,2019/06/04,,https://jira.qiaofangyun.com/browse/KAD-760
+一房网发布房源到微门店，提示发布失败,P1,大客户部,开放,王刚刚,周大洋,2019/06/03,,https://jira.qiaofangyun.com/browse/KAD-754
+湖南邦房：交易 S1810327  数据处理， 结盘还未审核，就已经是结盘不可操作了。,P2,大客户部,开放,苗明明,周大洋,2019/06/02,交易,https://jira.qiaofangyun.com/browse/KAD-743
+"株州中游:运营分析报表,部门查询时,排列混乱",P1,大客户部,开放,王刚刚,赵兴,2019/06/01,大客户,https://jira.qiaofangyun.com/browse/KAD-741
+青岛科威：运营分析-带看记录， 进入带看详情页，打印按钮点击无反应,P2,大客户部,开放,王刚刚,万晓剑,2019/05/31,,https://jira.qiaofangyun.com/browse/KAD-737
+广州兴业：微门店房源分享异常,P1,大客户部,开放,王刚刚,万晓剑,2019/05/31,,https://jira.qiaofangyun.com/browse/KAD-736
+青岛科威一房网:需要删除 科威 远行地产这个部门,P2,大客户部,已关闭,赵兴,赵兴,2019/05/28,组织结构,https://jira.qiaofangyun.com/browse/KAD-708
+广州兴业：广州兴业：有打卡记录，但考勤汇总记录为旷工,P2,大客户部,开放,王刚刚,万晓剑,2019/05/27,,https://jira.qiaofangyun.com/browse/KAD-688
+"湖南邦房:房源RV0678765,新增有效流程显示 后台 处理中,请稍候",P1,大客户部,已关闭,赵兴,赵兴,2019/05/24,房源,https://jira.qiaofangyun.com/browse/KAD-637
+襄阳邦房：交易S1900111，无法查看除交易概要外，其他交易阶段,P2,大客户部,已关闭,杨立芳,周大洋,2019/05/23,交易,https://jira.qiaofangyun.com/browse/KAD-624
+常德邦房：交易附件上传，提示文件为空,P2,大客户部,已关闭,吴晓敏,周大洋,2019/05/22,交易,https://jira.qiaofangyun.com/browse/KAD-620
+融创物业：手机APP做实堪，保存提示必须要有自拍图，但是图片类型内没有自拍图可选。,P2,大客户部,已关闭,蒋正邦,周大洋,2019/05/22,,https://jira.qiaofangyun.com/browse/KAD-617
+一房网襄阳：苹果X APP中打空看，无法正常显示,P2,大客户部,开放,王刚刚,周大洋,2019/05/21,,https://jira.qiaofangyun.com/browse/KAD-607
+凉山天诚：房源JGC0000057钥匙审批流程已经通过，房源详情页，钥匙审批还是待审核状态,P2,大客户部,已关闭,周大洋,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-577
+西安邦房：楼盘字典中坐标位置有标记，并且方圆10公里内有地铁线路 3号线，但是对应的房源列表页和详情页没有生成地铁信息。,P2,大客户部,已关闭,吴晓敏,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-576
+襄阳邦房：新增有效房源 4UWF0028424 ，房源状态显示有误,P2,大客户部,开放,毛成,龙如春,2019/05/15,房源,https://jira.qiaofangyun.com/browse/KAD-575
+青岛科威：新增房源时已经按照规则去新增，但还是提示从已有中选取,P2,大客户部,开放,毛成,龚杰,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-574
+青岛科威：5.12号左右出现很多客源详情无法查看,P1,大客户部,已关闭,万晓剑,万晓剑,2019/05/14,客源,https://jira.qiaofangyun.com/browse/KAD-573
+"一房网襄阳：V10中更新了房源价格及状态, ifang.com上  未更新",P2,大客户部,已关闭,周大洋,周大洋,2019/05/20,房源,https://jira.qiaofangyun.com/browse/KAD-567
+一房网仙桃：微门店使用提到期或者未授权,P2,大客户部,已关闭,周大洋,周大洋,2019/05/19,,https://jira.qiaofangyun.com/browse/KAD-561
+"融创重庆:交易  上传居间协议附件会报,上传的是空文件,新增应收会报错",P1,大客户部,已关闭,赵兴,赵兴,2019/05/18,交易,https://jira.qiaofangyun.com/browse/KAD-560
+"株洲中游:合同模板加粗字体颜色打印出来的和设置的不一样/模板是红的,打出来是黑的",P2,大客户部,开放,杨明,赵兴,2019/05/18,交易,https://jira.qiaofangyun.com/browse/KAD-559
+哈尔滨居泽：运营分析-业务综合报表-跟进报表，一直加载中,P2,大客户部,已关闭,龙如春,龙如春,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-556
+5.8号更新的“钥匙收取人可关联房源钥匙方” 不生效,P2,大客户部,已关闭,冯蕾,万晓剑,2019/05/17,房源,https://jira.qiaofangyun.com/browse/KAD-555
+南阳一房网：南阳地区ifang.com打开默认显示南阳，目前默认为青岛,P2,大客户部,开放,王庆雄,周大洋,2019/05/15,,https://jira.qiaofangyun.com/browse/KAD-542
+"兰州邦房:员工方梅艳,已离职很久了,但PK管理新增时,还是会显示",P3,大客户部,已关闭,赵兴,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/KAD-541
+湖南邦房：通话记录里，点击录音下载，是直接打开，不是下载,P3,大客户部,已关闭,赵兴,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/KAD-540
+"株洲中游:合同模板 贷款合同无敌 无法正常使用,昨天做好的模板",P2,大客户部,已关闭,杨蓉1,赵兴,2019/05/15,交易,https://jira.qiaofangyun.com/browse/KAD-539
+广州兴业：帐号“罗志杰”已完成的审批任务 在首页依旧提醒,P2,大客户部,已关闭,万晓剑,万晓剑,2019/05/15,,https://jira.qiaofangyun.com/browse/KAD-538
+西安邦房:首页子页 房客源数据 全是0,P2,大客户部,已关闭,吴晓敏,赵兴,2019/05/15,,https://jira.qiaofangyun.com/browse/KAD-537
+"株州中游:手机端营销号没有记录,这边应该显示营销渠道来电记录的",P3,大客户部,开放,杨明,赵兴,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-535
+青岛科威:部分图片无法删除,P3,大客户部,已关闭,赵兴,赵兴,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-524
+湖南邦房:楼盘字典点地图标注报错,P2,大客户部,已关闭,赵兴,赵兴,2019/05/14,楼盘字典,https://jira.qiaofangyun.com/browse/KAD-523
+一房网宜宾：客户端楼盘附件下载不了,P2,大客户部,已关闭,杨立芳,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-522
+湖南邦房：如果房源钥匙列表有2套钥匙，删除其中一套，对应的钥匙操作记录也不显示了；当2套钥匙都删除了，操作就都显示出来。,P2,大客户部,已关闭,周大洋,周大洋,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-521
+青岛科威：APP分享房源到微信提示 bundleid信息效验不通过,P2,大客户部,处理中,彭超,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-520
+一房网咸阳：房源跟进里面出现 早已离职人员写入跟进,P2,大客户部,已关闭,杨立芳,万晓剑,2019/05/14,房源,https://jira.qiaofangyun.com/browse/KAD-519
+"襄阳邦房:楼盘字典,已锁定定楼盘+未锁定楼盘,不等于总数 -",P3,大客户部,已关闭,赵兴,赵兴,2019/05/14,楼盘字典,https://jira.qiaofangyun.com/browse/KAD-518
+广州兴业：添加房源到 微门店-个人精选； 关注经纪人后不显示,P2,大客户部,开放,王刚刚,万晓剑,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-517
+一房网西安：V10中创建的城区商圈已经删除了，但是ifang.com上还有显示,P2,大客户部,开放,吴伟红,周大洋,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-516
+上海巧房：新的合同套打模块，在客户端上面不能输入中文,P1,大客户部,开放,杨明,万晓剑,2019/05/14,交易,https://jira.qiaofangyun.com/browse/KAD-515
+广州兴业：经纪人“胡岚”手机端打卡，不提示打卡成功,P3,大客户部,开放,李海叶,万晓剑,2019/05/14,,https://jira.qiaofangyun.com/browse/KAD-514
+芜源格家:sh4620    6月7号18点后的录音大多数v10里没有,P0,电话平台,开放,凡艳辉,赵兴,2019/06/08,,https://jira.qiaofangyun.com/browse/DHPT-1650
+"青岛乐士居: sh3757部分商务号录音,听录音提示,该条录音信息不存在",P2,电话平台,开放,凡艳辉,赵兴,2019/06/07,,https://jira.qiaofangyun.com/browse/DHPT-1649
+sh9739南京好理想房产：主叫：18205190568被叫：13813367046。V10里话单未获取，房信通里没有话单,P2,电话平台,开放,凡艳辉,龚杰,2019/06/07,,https://jira.qiaofangyun.com/browse/DHPT-1648
+沈阳房管家：开了一个新库，总机号84898在两个库都填了，导致录音没取到； 旧库sh6833的总机号已经取消，新库sh7248需要重新获取下话单,P2,电话平台,已关闭,凡艳辉,万晓剑,2019/06/06,,https://jira.qiaofangyun.com/browse/DHPT-1640
+郑州安康：sh6133	 营销号 17183853259     接到来电，没有来电记录，服务平台有记录,P2,电话平台,已关闭,凡艳辉,龙如春,2019/06/05,,https://jira.qiaofangyun.com/browse/DHPT-1638
+上海义和：上线之后的录音就是一直是未取话单状态 如主叫82948101802 被叫13636504276 6/1,P2,电话平台,开放,凡艳辉,张秀明,2019/06/04,,https://jira.qiaofangyun.com/browse/DHPT-1605
+南京好邻居：房源编号ML0463107，员工叶博涵拨打房源电话有记录无录音,P2,电话平台,开放,凡艳辉,龚杰,2019/06/03,,https://jira.qiaofangyun.com/browse/DHPT-1594
+上海仁丰：新开通的30个营销号，无法绑定,P1,电话平台,已关闭,凡艳辉,万晓剑,2019/06/03,,https://jira.qiaofangyun.com/browse/DHPT-1591
+sh4818贵港丽港：V10系统内5月18日以后的录音都没有，但是房信通里通过话单查询是有记录的,P1,电话平台,已关闭,万晓剑,龚杰,2019/05/28,,https://jira.qiaofangyun.com/browse/DHPT-1576
+sh1681 上海优办：总机号：82907   所有话单都未获取,P2,电话平台,已关闭,凡艳辉,龚杰,2019/05/28,,https://jira.qiaofangyun.com/browse/DHPT-1575
+"洛阳懿皇: 主叫16639435902	被叫 15517972221	时间2019-05-24 18:39,话单末取,引起业务员纠纷",P2,电话平台,已关闭,凡艳辉,赵兴,2019/05/25,,https://jira.qiaofangyun.com/browse/DHPT-1553
+sh7104 上海有弋家：话单从5月15日开始从未获取到，总机号码：82940,P2,电话平台,已关闭,李国强,龚杰,2019/05/24,,https://jira.qiaofangyun.com/browse/DHPT-1545
+sh2777	 芜湖安家  商务号 17174927169    v10里无法解绑,P2,电话平台,已解决,李国强,龙如春,2019/05/23,,https://jira.qiaofangyun.com/browse/DHPT-1516
+南京巨为房产经纪有限公司：营销号已经导入系统，但在营销号管理里没有营销号,P2,电话平台,已关闭,刘扬,蔡晓铖,2019/05/22,,https://jira.qiaofangyun.com/browse/DHPT-1503
+"贵港丽港:sh4818     5月1 号起,系统里没有拨打记录",P1,电话平台,已关闭,凡艳辉,赵兴,2019/05/18,,https://jira.qiaofangyun.com/browse/DHPT-1485
+上海晟熙:sh2611所有商务号拨打的记录 v10里没有,P1,电话平台,已关闭,李国强,赵兴,2019/05/18,,https://jira.qiaofangyun.com/browse/DHPT-1484
+"新乡美满:营销渠道来电记录,显示区号有问题",P2,电话平台,已关闭,赵兴,赵兴,2019/05/14,,https://jira.qiaofangyun.com/browse/DHPT-1465
+"株州中游:运营分析报表,部门查询时,排列混乱",P2,报表BI,已关闭,胡学文,赵兴,2019/06/01,运营分析,https://jira.qiaofangyun.com/browse/BI-1692
+台州链宸: 数据看板，表格导出，文件类型不正确，无法正常打开,P2,报表BI,已关闭,陈江浪,周大洋,2019/05/29,运营分析,https://jira.qiaofangyun.com/browse/BI-1653
+重庆科尚：青木车站分行 陈铃， 26日有2个新房报备，已到访，报表不统计新房带看量,P2,报表BI,已关闭,龙如春,龙如春,2019/05/27,运营分析,https://jira.qiaofangyun.com/browse/BI-1633
+重庆科尚：运营分析报表和报表中的通话情况报表统计问题,P2,报表BI,已关闭,龙如春,龙如春,2019/05/27,运营分析,https://jira.qiaofangyun.com/browse/BI-1631
+西安金玉：员工积分详情/汇总 查询提示服务异常,P2,报表BI,已关闭,周大洋,周大洋,2019/05/26,运营分析,https://jira.qiaofangyun.com/browse/BI-1630
+西安金玉：积分统计报错,P2,报表BI,已解决,曹丽茹,龙如春,2019/05/26,积分,https://jira.qiaofangyun.com/browse/BI-1629
+南京林升：2019/5/23，的积分没有生成，上次更新时间: 2019-05-22 23:30,P2,报表BI,已解决,曹丽茹,龙如春,2019/05/23,运营分析,https://jira.qiaofangyun.com/browse/BI-1614
+咸阳玛雅:5月21日积分全是0,P1,报表BI,已关闭,曹丽茹,赵兴,2019/05/21,运营分析,https://jira.qiaofangyun.com/browse/BI-1576
+重庆科尚：运营分析系统-成交分析-成交总览，5月一手业绩不显示，,P2,报表BI,已关闭,龙如春,龙如春,2019/05/21,运营分析,https://jira.qiaofangyun.com/browse/BI-1572
+烟台华夏:新报表5月13日客源数据不对,P3,报表BI,已关闭,赵兴,赵兴,2019/05/18,运营分析,https://jira.qiaofangyun.com/browse/BI-1569
+"山东三宇:运营分析系统里,成交分析,收佣分析报表没有数据",P2,报表BI,已解决,杨晓娟,赵兴,2019/05/17,运营分析,https://jira.qiaofangyun.com/browse/BI-1566
+商丘方圆：积分统计--租赁成交（佣金收齐） 经纪人积分不统计,P2,报表BI,已关闭,曹丽茹,周大洋,2019/05/17,运营分析,https://jira.qiaofangyun.com/browse/BI-1563
+链宸房地产：数据看板中报表无法导出，下载格式不是excel表格,P2,报表BI,已关闭,陈江浪,蔡晓铖,2019/05/17,运营分析,https://jira.qiaofangyun.com/browse/BI-1560
+南京钰宏：电话数据报表不统计，通话记录内从5月3日起至今有9190条通话记录，但是统计报表里只统计了几十条,P2,报表BI,已关闭,杨晓娟,龚杰,2019/05/15,运营分析,https://jira.qiaofangyun.com/browse/BI-1537
+咸阳玛雅：员工解宁静，5月8号积分（租赁成交未统计）已经检查过说明客户设置都符合，交易编号（XY1517588）反馈人：15349181845,P3,报表BI,已关闭,冯佳顺,冯佳顺,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/BI-1534
+"重庆科尚:运营分析系统,成交分析-成交总缆 数据不对",P3,报表BI,已解决,杨晓娟,赵兴,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/BI-1519
+重庆悦中：4月2日按揭部，e类业绩，龙虎榜中与实际业绩不一致，没有录过坏账,P3,报表BI,已解决,杨晓娟,蔡晓铖,2019/05/14,运营分析,https://jira.qiaofangyun.com/browse/BI-1518
