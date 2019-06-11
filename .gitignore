@@ -1,1 +1,4 @@
-jiraReport/node_modules
+jiraReport
+.log
+.lock
+

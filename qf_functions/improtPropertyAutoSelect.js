@@ -21,7 +21,8 @@
             let curRowName = curSelect.parents('tr').find('span:first').text()
             let optionsMatchResult
             //匹配到设置select的值,匹配不到就更改底色提示
-            optionsMatchResult = rowStrMatch(curRowName) ? curSelect.val(optionsMatchResult) : curSelect.parents('tr').css('background-color','CornflowerBlue');
+            optionsMatchResult = rowStrMatch(curRowName)
+            optionsMatchResult ? curSelect.val(optionsMatchResult) : curSelect.parents('tr').css('background-color','CornflowerBlue');
             //console.log(curRowName)
         });
         return false

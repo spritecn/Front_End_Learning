@@ -1,7 +1,7 @@
 # Front_End_Learning
 
 ## 时间 
-- 5/1 - 6/4
+- 5/1 - 6/30 
 
 ## 学习内容
 - 把之前零碎学习的 html + css + javascript 知识串起来
@@ -45,6 +45,7 @@
   6. js中this和python中self差不多,只是js的this是隐性传的,python的都要写上去
   7. input的onChanger需要鼠标点击其他控件才能触发,onkeyDown,是按下去就算,一般没有最后输入的那个值,一般用keyUp 慎用 keyDown,angularsj可以用 $watch监视
   8. 字符串转数字的方示 parseInt(str),如果确认是数字,可以直接 (+str)
+  9. js天生异步,需要同步时,需要promise或async,而python是天生同步的,异步时考虑多线程或asyncio
 
 - gulp:
   1. 教程:https://segmentfault.com/a/1190000012904063
