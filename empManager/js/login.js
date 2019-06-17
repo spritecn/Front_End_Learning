@@ -1,5 +1,5 @@
-var app = angular.module('loginApp',[]);
-app.controller('loginCtrl',($scope)=> {
+var app = angular.module('loginApp',['dbApiModule']);
+app.controller('loginCtrl',function($scope,dbApi) {
     $scope.loginSubmit = (valid)=>{
         if (!valid){
             if($scope.loginForm.userNo.$error.required){
@@ -9,7 +9,6 @@ app.controller('loginCtrl',($scope)=> {
             }else{
                 $scope.userNoWarning = ''
             }
-
             if($scope.loginForm.verify.$error.required){
                 $scope.verifyWarning = '验证码必填'
             }else if($scope.loginForm.verify.$error.verify){
@@ -19,9 +18,9 @@ app.controller('loginCtrl',($scope)=> {
             }
             return
         }else{
-            
-            console.log(valid)
+            //console.log($scope.userNo,$scope.passwd)
             console.log('验证通过')
+            dbApi.login({no:$scope.userNo,passwd:$scope.passwd})
     }}
     $scope.resetWarning = _ =>{
         switch (_){
@@ -68,7 +67,7 @@ app.directive('loginVerify',function($compile){
                 }else{
                     //console.log(value,value == verifyResult)
                     self.$setValidity('verify',value == verifyResult)
-                    console.log(self)
+                    //console.log(self)
                 }
             })
             }
