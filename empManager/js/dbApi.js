@@ -4,6 +4,7 @@ angular.module('dbApiModule',[])
         //$httpProvider.defaults.headers.common['Authorization'] = 'Basic c3B4OnNweA=='
         })
     .service('dbApi',function($http,$filter){
+        //封装所有rust api 操作
         let dbApiUrl = 'http://hw.fantansy.cn:8080/treeql_emp_manager.php/records/'
         let [empApiUrl,tokenApiUrl] = [dbApiUrl+'employee',dbApiUrl+'token']
         this.login = (loginData) =>{
@@ -17,7 +18,11 @@ angular.module('dbApiModule',[])
             $http.get(empApiUrl+filterStr,{
                 //timeout:10
             }).then((resp)=>{
-                console.log(resp.data.records[0] || '')
+                if(resp.data.records[0]){
+                    alert('登录成功')
+                    window.location.href='home.html'
+                }else{
+                alert('用户名密码不对')}
             })
             .catch((resp)=>{
                 console.log(resp.data || 'Request failed')
@@ -25,7 +30,7 @@ angular.module('dbApiModule',[])
             
         this.putToken = (empid) =>{
             $http.post(tokenApiUrl,{
-                data = {empid:empid,time:$filter('data')(new Date(),'YYYY-MM-dd HH:mm:ss')}
+                data:{empid:empid,time:$filter('data')(new Date(),'yyyy-MM-dd HH:mm:ss')}
             }).then((resp)=>{
                 return resp.data
             }).catch((resp)=>{

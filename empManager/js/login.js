@@ -23,6 +23,7 @@ app.controller('loginCtrl',function($scope,dbApi) {
             dbApi.login({no:$scope.userNo,passwd:$scope.passwd})
     }}
     $scope.resetWarning = _ =>{
+        //输入框错误信息
         switch (_){
         case 'userNo':
             $scope.userNoWarning = ''
@@ -38,6 +39,7 @@ app.controller('loginCtrl',function($scope,dbApi) {
     $scope.resetWarning()
 })
 app.directive('loginVerify',function($compile){
+    //随机生成  简单数学验证码，并进行前端验证
     return{
         restrict:'A',
         require:'ngModel',
@@ -58,16 +60,13 @@ app.directive('loginVerify',function($compile){
             scope.verifyQuestion = verifyQuestion
             let verifyElement = $compile('<span class="with-padding text-primary">' + verifyQuestion+ '</span> \
             <em class="with-padding text-warning"> {{verifyWarning}}</em><br/>' )(scope)
-            //console.log(verifyElement)
             element.after(verifyElement)
             scope.$watch(attrs.ngModel,function(value){
                 if(!value){
                     //console.log('输入为空')
                     self.$setValidity('verify',false)
                 }else{
-                    //console.log(value,value == verifyResult)
                     self.$setValidity('verify',value == verifyResult)
-                    //console.log(self)
                 }
             })
             }

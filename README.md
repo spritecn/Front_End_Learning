@@ -1,7 +1,6 @@
 # Front_End_Learning
 
-## 时间 
-- 5/1 - 6/30 
+
 
 ## 学习内容
 - 把之前零碎学习的 html + css + javascript 知识串起来
