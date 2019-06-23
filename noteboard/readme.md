@@ -4,7 +4,7 @@
 # 后端 treeql 数据直读
 
 # 数据库 单note表
-'''
+```
 CREATE TABLE `note` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL DEFAULT '',
@@ -14,7 +14,7 @@ CREATE TABLE `note` (
   `createtm` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
-'''
+```
 # 后端api 
   - Treeql 连接地址 http://spritecn.gz01.bdysite.com/hw/crud-api.php
   - 提交留言  post  http://spritecn.gz01.bdysite.com/hw/crud-api.php/records/note {"name":"","content":"","createtm":""}
