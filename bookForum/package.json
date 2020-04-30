@@ -16,6 +16,6 @@
     "angular-sanitize": "^1.5.11",
     "angular-ui-router": "^1.0.22",
     "angularjs": "0.0.1",
-    "jquery": "^2.2.4"
+    "jquery": "^3.5.0"
   }
 }
